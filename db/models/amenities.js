@@ -1,16 +1,15 @@
 "use strict";
 const { Model } = require("sequelize");
 module.exports = (sequelize, DataTypes) => {
-  class Location extends Model {
+  class Amenities extends Model {
     static associate(models) {
       // define association here
     }
   }
-  Location.init(
+  Amenities.init(
     {
-      name: { type: DataTypes.STRING, allowNull: false },
-      description: DataTypes.TEXT,
       type: { type: DataTypes.STRING, allowNull: false },
+      name: DataTypes.STRING,
       latitude: {
         type: DataTypes.FLOAT,
         validate: {
@@ -28,7 +27,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     {
       sequelize,
-      modelName: "location",
+      modelName: "amenity",
       validate: {
         checkBothCoordinatesEntered() {
           if (this.latitude === null || this.longitude === null) {
@@ -38,5 +37,5 @@ module.exports = (sequelize, DataTypes) => {
       },
     }
   );
-  return Location;
+  return Amenities;
 };

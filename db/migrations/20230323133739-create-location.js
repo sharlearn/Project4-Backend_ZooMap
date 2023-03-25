@@ -11,12 +11,14 @@ module.exports = {
       },
       name: {
         type: Sequelize.STRING,
+        allowNull: false,
       },
       description: {
         type: Sequelize.TEXT,
       },
       type: {
         type: Sequelize.STRING,
+        allowNull: false,
       },
       latitude: {
         type: Sequelize.FLOAT,
