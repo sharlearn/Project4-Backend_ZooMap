@@ -28,6 +28,14 @@ module.exports = {
               "The only cat to sport one, the mane is believed to protect the lion's throat from the bites of other males during territorial fights. Females prefer males with prominent dark manes, which are more likely to be stronger, more experienced males that would stay on with the pride and protect the females and their cubs for longer. Studies have confirmed that a heavy-maned lion signals health and strength to rival males, prompting them to think twice before challenging him.",
           },
         ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Hunting The King",
+            description:
+              "To prove their hunting prowess, Maasai warriors slew lions and cut off their mane and tail. These are then passed to their womenfolk for beading. The mane was worn during special occasions and the tail kept in the warrior's camp. This ancient practice and all lion hunting are now banned in East Africa.",
+          },
+        ]),
       },
       {
         name: "African Painted Dog",
@@ -53,10 +61,18 @@ module.exports = {
               "Pack members that take part in a hunt eat together before returning to their den to regurgitate food for the young, old or sick. These dogs are very social, often communicating through touch, actions and calls. They use their large ears to listen out for calls of their pack members. Each pack is dominated by a monogamous breeding pair. The female gives birth to a litter of 2-20 pups, which are later cared for by the whole pack.",
           },
         ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Going To The Dogs",
+            description:
+              "Once widely distributed across Africa, with packs of 100 not uncommon, these dogs are now threatened by human encroachment on their habitat. Besides persecution by farmers who fear for their livestock, these dogs are also susceptible to infectious diseases transmitted by domestic animals.",
+          },
+        ]),
       },
       {
         name: "African Penguin",
-        locationId: null,
+        locationId: 70,
         lifespan: "15 to 20 years in the wild. Up to 40 years in captivity.",
         diet: "Sardines, anchovies,  gobies and herring.",
         habitat: "Sea cliffs, shorelines, beaches, rocky offshore islands.",
@@ -71,6 +87,24 @@ module.exports = {
             title: "Adapted to the weather",
             content:
               "A suit of dense, waterproof feathers keeps them dry and warm when they dive in the cold waters off the African coast. Look closely and you will see the penguins have a small pink gland above each eye. This feature helps them to cope with soaring temperatures in the day, the glands take on a pinker appearance as the weather warms up. When a penguin gets hot, more blood is sent to these glands, where it is cooled by the surrounding air, thus keeping the bird cool.",
+          },
+        ]),
+        iucnStatus: "Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Without A Roof Over Their Heads",
+            description:
+              "These penguins burrow in guano (sea birds' droppings) but guano collection for use as fertiliser has taken the roof off their nests. Left at the mercy of the weather, heat stress and rainstorms force some birds to abandon their nests. Their eggs and chicks become open targets for gulls and wild cats",
+          },
+          {
+            title: "Oil Spill",
+            description:
+              "In 2000, an oil spill affected 21,500 penguins. We sent two keepers and a vet to aid in the rescue mission. About 500 birds had to be cleaned a day and all oil and detergent removed before their release. Over 90% of the oiled birds were saved, when usually only 50% of birds affected in a spill survive.",
+          },
+          {
+            title: "Plummeting populations",
+            description:
+              "Besides oil spills and overfishing, the penguins also have to contend with predation from fur seals and sharks. Despite efforts to protect them, their population continues to plummet. In 2000, the IUCN reclassified them from threatened to vulnerable and again in 2010, from vulnerable to endangered.",
           },
         ]),
       },
@@ -91,6 +125,24 @@ module.exports = {
             title: "Loud courtship",
             content:
               "Perhaps this long wait before they come of age is why they sound so excited during courtship. Tortoises have a wide repertoire of grunts, hisses, squeaks and sighs. During their prolonged mating ritual, they emit the strangest barking noises you'd never imagine coming from a tortoise. Perfect for Jurassic Park's sound designer, looking to voice creatures no-one has heard before. The barks of the raptors in the movie's famous kitchen scene were made by a mating tortoise!",
+          },
+        ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Lone survivor",
+            description:
+              "At least 18 different species of land tortoises used to live in the Indian Ocean region. All except the Aldabra have been driven to extinction by sailors who harvested them for food on long voyages and by introduced species such as rats, cats and pigs that preyed on their eggs and hatchlings.",
+          },
+          {
+            title: "Island-Hopping",
+            description:
+              "In the 1880s, the esteemed Charles Darwin and other conservationists initiated the protection of the Aldabra tortoises. They were one of the first species to be conserved to ensure its survival. A breeding population was set aside on neighbouring Mauritius. Aldabra Atoll is now a World Heritage Site.",
+          },
+          {
+            title: "Protection Needed",
+            description:
+              "The level of protection instituted by the Seychelles government has seen Aldabra tortoise populations growing steadily and there are now an estimated 100,000 on the atoll. Nevertheless, the species remains at risk due to habitat encroachment by humans and rising sea levels brought on by global warming.",
           },
         ]),
       },
@@ -119,10 +171,18 @@ module.exports = {
               "The elephant's trunk functions like a fifth limb. If any part of their bodies is hurting, the elephants might use their trunks or tails to soothe it. Our keepers keep a keen eye out for such tell-tale signs first thing in the morning, when the stables are cleared of food (and poop!) from the night before. Next up, the elephants get their daily full-body scrubs. This is another chance for keepers to check on their health while strengthening their bond with them.",
           },
         ]),
+        iucnStatus: "Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Elephant Response Units",
+            description:
+              "We provide key support for the mitigation of human-elephant conflicts (HEC) in Way Kambas National Park, Indonesia. To mitigate HEC, Elephant Response Units (ERUs) of trained elephants and their mahouts form forest patrols, herding wild elephants away from farmland and back to the protected areas.",
+          },
+        ]),
       },
       {
         name: "Asian Small-Clawed Otter",
-        locationId: null,
+        locationId: 71,
         lifespan: "Up to 16 years under human care.",
         diet: "Crustaceans and molluscs. Also small fish, insects, rodents, reptiles and frogs.",
         habitat:
@@ -151,10 +211,18 @@ module.exports = {
               "With a vocabulary of 12 different calls, these otters can be a noisy bunch. The calls are used for contact, summons, greeting, threat and alarm. Scent markings are just as important for communication. Otters emit a musky smell from paired scent glands at the base of the tail that helps mark their territory. The scent also gives chemical cues as to identity, sex and reproductive state. If you were wondering about the smell at the exhibit, this probably explains!",
           },
         ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Free Aquarius",
+            description:
+              "Carelessly-disposed waste that ends up in our waterways is a threat to wildlife. In the “Free Aquarius” operation, Mandai Wildlife Reserve vets rescued a wild smooth-coated otter pup injured by an 'O' ring coiled around her body. Let's help the otters by reducing waste. Refill your bottle at water dispensers in our parks.",
+          },
+        ]),
       },
       {
         name: "Babirusa",
-        locationId: null,
+        locationId: 72,
         lifespan: "24 years on average.",
         diet: "Tubers, leaves, mushrooms, fruits, insects, snails.",
         habitat: "Forests and wetlands.",
@@ -163,7 +231,15 @@ module.exports = {
           {
             title: "Pig Deer",
             content:
-              "Babi' is the Malay word for pig and 'rusa' means deer. Thus 'babirusa' translates to 'pig deer'.\n Only the males have tusks. The upper tusks that grow through the snout of the babirusa look very much like the antlers of a deer, hence the animal's common name.",
+              "Babi' is the Malay word for pig and 'rusa' means deer. Thus 'babirusa' translates to 'pig deer'. \n Only the males have tusks. The upper tusks that grow through the snout of the babirusa look very much like the antlers of a deer, hence the animal's common name.",
+          },
+        ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Saving The Babirusa's Home",
+            description:
+              "Threatened by rampant destruction of their rainforest habitat and illegal poaching for their meat, the babirusa is in grave danger of extinction in the wild. We support the Forest and Species Protection Patrol (Nantu Protection Units), who remove snares and traps and hand over illegal loggers to the authorities. By protecting the Nantu forest, we help ensure the babirusa's habitat remains safe.",
           },
         ]),
       },
@@ -189,7 +265,7 @@ module.exports = {
           {
             title: "All in the Name",
             content:
-              "Ah Meng was named by the Chinese family that had kept her illegally.\n One of our impressive Sumatran male orangutans, Charlie, was probably named so as a British school had sponsored him while he was at Malaysia's national zoo.\n Anita, one of the senior female orangutans, was named after singer Anita Sarawak, who donated her to our zoo.\n Galdikas carries the name of famed primatologist Dr Birute Galdikas, and is the father of Ishta, the new Ah Meng.",
+              "Ah Meng was named by the Chinese family that had kept her illegally.\n One of our impressive Sumatran male orangutans, Charlie, was probably named so as a British school had sponsored him while he was at Malaysia's national zoo. \n Anita, one of the senior female orangutans, was named after singer Anita Sarawak, who donated her to our zoo. \n Galdikas carries the name of famed primatologist Dr Birute Galdikas, and is the father of Ishta, the new Ah Meng.",
           },
           {
             title: "Like One of their Own",
@@ -202,10 +278,18 @@ module.exports = {
               "Our orangutans are notoriously picky about the company they keep. They form lifetime bonds with their keepers, to the point of possessiveness. Even our grande dame, Ah Meng, lost her cool when her lifetime caretaker, Sam, was seen getting too chummy with a French lady researcher.\n As a rule of thumb, junior keepers work alongside orangutans for a minimum of two years before they attain the level of trust necessary to bring the primates out for visitor interactions.",
           },
         ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Safety Net For The Species",
+            description:
+              "Both the Sumatran and Bornean orangutans are critically endangered - the latter was reclassified recently, from endangered status to reflect the magnitude of threats from habitat loss and illegal hunting.\n Managing orangutan populations in zoos ensures the survival of the species. It also allows members of the public to appreciate and learn more about them, and hopefully with emotional connection, comes the desire to protect these 'men of the forest'.",
+          },
+        ]),
       },
       {
         name: "Brown Lemur",
-        locationId: null,
+        locationId: 13,
         lifespan: "Up to 30 years.",
         diet: "Mainly fruits, young leaves and flowers.",
         habitat: "Tropical dry forest, moist lowland and montane forest.",
@@ -219,7 +303,15 @@ module.exports = {
           {
             title: "Free-Ranging at the Zoo",
             content:
-              '"Their close social ties are the reason why they were selected to free-range. As they are fed at the same place every day, they learn to associate the area with food and to establish their territory there.\nAside from the Treetops Trail feeding, the brown lemurs can also be seen at the big bamboo clump by the Zoo entrance. You can view them up-close, without any of the barriers that usually separate visitors and animals. Do keep an eye out for those round-eyed faces!',
+              "Their close social ties are the reason why they were selected to free-range. As they are fed at the same place every day, they learn to associate the area with food and to establish their territory there. \nAside from the Treetops Trail feeding, the brown lemurs can also be seen at the big bamboo clump by the Zoo entrance. You can view them up-close, without any of the barriers that usually separate visitors and animals. Do keep an eye out for those round-eyed faces!",
+          },
+        ]),
+        iucnStatus: "Nearly Threatened",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Threatened Existence In The Wild",
+            description:
+              "Brown lemurs are hunted for food. Blowpipes, guns, bow-and-arrows, and even traps are used. Sometimes entire groups are captured. \n Their habitat is increasingly destroyed by slash-and-burn practices, charcoal production, and illegal logging. Choose paper and wood products from sustainable sources.",
           },
         ]),
       },
@@ -248,10 +340,18 @@ module.exports = {
               "Californian sea lions are used in military applications by the U.S. Navy, including detecting naval mines and enemy divers. In the Persian Gulf, the animals are trained to swim behind divers approaching a U.S. naval ship and attach a clamp with a rope to the enemy diver's leg. Navy officials say the sea lions can do this in seconds, before the enemy even realises what has happened.",
           },
         ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Recovered from Historical Exploitation",
+            description:
+              "California Sea Lions have recovered from historical exploitation and their population is now large and still expanding slowly. Beyond the temporal effects of El Niño events, no other major threats are apparent.",
+          },
+        ]),
       },
       {
         name: "Celebes Crested Macaque",
-        locationId: null,
+        locationId: 65,
         lifespan: "18 years in the wild. Up to 34 years under human care.",
         diet: "Mainly fruits, also insects, young leaves, even crops.",
         habitat: "Humid tropical rainforests. Also farmland on forest edges.",
@@ -273,6 +373,15 @@ module.exports = {
               "Every male and female macaque has multiple mates. When females are ready to mate, their rump swells and becomes bright red. The swelling may appear grotesque to us but it is an important visual signal of fertility. Olfactory cues may be at work too - males are seen to sniff the females' rears at this time. Butt-sniffing is also a form of greeting, as is embracing, especially among the females. Female form more egalitarian bonds, whereas males conform to a strict pecking order.",
           },
         ]),
+        iucnStatus: "Critically Engangered",
+        iucnDescription: JSON.stringify([
+          {
+            title:
+              "Mandai Wildlife Group In Support Of The Celebes Crested Macaque",
+            description:
+              "This macaque is one of the world's 25 most endangered primates — wild populations have declined by 80-90% in 40 years. The illegal bushmeat trade and habitat encroachment are the principal threats to their survival. \n Mandai Nature supports the work of Yayasan Selamatkan Yaki Indonesia (SY) in saving the Celebes crested macaque.",
+          },
+        ]),
       },
       {
         name: "Cheetah",
@@ -291,7 +400,7 @@ module.exports = {
           {
             title: "Chirping Cheetahs",
             content:
-              "A cheetah mum makes chirruping calls to signal to her cubs to join her in feeding on a fresh kill. She may also call for them with a throaty purr if they have wandered off from their den. Her young respond with chirps. Cheetah mums shift dens every few days to prevent the build-up of their scent, which may attract predation from lions or hyenas.\n If separated, members of a male coalition may also “yipp” and “churr” for up to 20 minutes at a go, till they're reunited.",
+              "A cheetah mum makes chirruping calls to signal to her cubs to join her in feeding on a fresh kill. She may also call for them with a throaty purr if they have wandered off from their den. Her young respond with chirps. Cheetah mums shift dens every few days to prevent the build-up of their scent, which may attract predation from lions or hyenas. \n If separated, members of a male coalition may also “yipp” and “churr” for up to 20 minutes at a go, till they're reunited.",
           },
           {
             title: "Last of the Asiatics",
@@ -299,10 +408,18 @@ module.exports = {
               "Cheetahs have disappeared across most of their Asian range due to live capture. Captured cheetahs were tamed and trained to hunt deer and gazelle as sport for royalty. The depletion of wild prey and habitat fragmentation have also contributed to their demise. The Asiatic cheetah is now Critically Endangered, with only about 80 left in Iran. An active pet trade market remains in the Gulf States and live cheetah cubs are being smuggled out of Africa to meet this demand.",
           },
         ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Breeding Success",
+            description:
+              "In the wild, cheetahs are solitary or live in small groups. Males and females usually do not cross paths unless it's breeding time. Though difficult to breed in zoos, we have successfully bred our cheetahs by separating the male and the female and introducing them only when the female is ready to mate.",
+          },
+        ]),
       },
       {
         name: "Chimpanzee",
-        locationId: null,
+        locationId: 66,
         lifespan: "Average of 45 years in the wild.",
         diet: "Fruits, plants, insects and eggs. Monkeys, wild pigs and small antelopes are also hunted.",
         habitat: "Primary and secondary rainforests, woodlands and grasslands.",
@@ -316,17 +433,25 @@ module.exports = {
           {
             title: "Using Tools",
             content:
-              "Puzzle boxes and 'termite mounds' in the exhibit are filled with condensed milk or honey. To get at the sweet treat, our chimps search for sticks that fit or shape unsuitable ones to do the job.\n Chimps in the wild gather insect 'kebabs' or spear grubs in logs in a similar manner. They also use stones to crack nuts and leaves as napkins, or as sponges to dip for water. Tool use varies between communities - 'culture' may play a key part in knowledge transmission among chimps.",
+              "Puzzle boxes and 'termite mounds' in the exhibit are filled with condensed milk or honey. To get at the sweet treat, our chimps search for sticks that fit or shape unsuitable ones to do the job. \n Chimps in the wild gather insect 'kebabs' or spear grubs in logs in a similar manner. They also use stones to crack nuts and leaves as napkins, or as sponges to dip for water. Tool use varies between communities - 'culture' may play a key part in knowledge transmission among chimps.",
           },
           {
             title: "Information Communication",
             content:
-              "Young chimps usually stay with their mothers till they are seven, in order to learn survival skills. One of these skills may be knowledge of medicinal plants - chimps that appear ill have been noted to seek out herbs with healing properties. Mothers and their young develop a close bond that may last a lifetime.\n Chimps communicate through body language, facial expressions, hand-clapping, grooming and kissing. Some chimps have even learnt how to use human sign language!",
+              "Young chimps usually stay with their mothers till they are seven, in order to learn survival skills. One of these skills may be knowledge of medicinal plants - chimps that appear ill have been noted to seek out herbs with healing properties. Mothers and their young develop a close bond that may last a lifetime. \n Chimps communicate through body language, facial expressions, hand-clapping, grooming and kissing. Some chimps have even learnt how to use human sign language!",
           },
           {
             title: "Cooperative Hunting",
             content:
               "All known chimp groups hunt large vertebrates, though their strategies may differ considerably. Some merely collect passing prey, others hunt fast-moving prey in coordinated fashion. Some hunting roles require elaborate coordination with other hunters and precise anticipation of the prey's movements. Chimps that perform such roles get the lion's share of the kill. Young chimps may learn to hunt from the age of 10 but need another 20 years or so of practice to do so reliably.",
+          },
+        ]),
+        iucnStatus: "Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Deforestation",
+            description:
+              "Many rainforest animals are threatened by deforestation, habitat degradation, and the illegal wildlife trade.",
           },
         ]),
       },
@@ -357,6 +482,14 @@ module.exports = {
             title: "At the 'Hut' of the Family",
             content:
               "After the release, especially for the first week, keepers continue to monitor the family closely to ensure they're settled in. The 'hut' remains at the heart of their lives. It is a safe haven for them, a place where they can take refuge if something frightens them. It is also where they spend the night, a warm hearth to retire to. For their safety, the tamarins must return to their 'hut' by the end of day. Keepers condition them to do so by placing food there at 5pm.",
+          },
+        ]),
+        iucnStatus: "Critically Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Exotic Pets",
+            description:
+              "Each year, hundreds of illegal pets come to us in such a manner, or as confiscations. Given our limited space and resources, it is a challenge for us to take in all of them. It's illegal to keep exotic animals like cotton-top tamarins as pets. \n Thousands of wild animals are removed from the wild to meet the demand for illegal pets and most die while being smuggled across borders. Do not buy exotic pets.",
           },
         ]),
       },
@@ -399,6 +532,19 @@ module.exports = {
               "At night, one troop member always remains on guard to watch out for nocturnal predators like leopards.",
           },
         ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Coordinated Conservation",
+            description:
+              "Wild colobus monkeys are vulnerable to habitat loss, as well as hunting for bush meat and their pelts. \n Our colobus monkeys are managed under the EAZA Ex-situ Programme (EEP), which involves coordinated breeding efforts by participating zoos. \n Transfer of individuals between these zoos is based on genetic compatibility. We have successfully bred our colobus monkeys and are contributing to the continued survival of the species.",
+          },
+          {
+            title: "World-Class Care",
+            description:
+              "We provide the highest standards of care for our colobus monkeys through a balanced and varied nutrition and an enriched enviornment that allows them to exhibit their natural climbing abilities and behaviours.",
+          },
+        ]),
       },
       {
         name: "Electric Blue Gecko",
@@ -424,6 +570,14 @@ module.exports = {
               "This diurnal gecko is found only in Tanzania's Kimboza and Ruvu Forest Reserves, where it dwells exclusively on pandan plants, which are associated with swamps or limestone within the forest. Each plant usually has a male, one or more females and several juveniles living among its thick stalks and above-ground roots. Because of this, the geckos were easily targeted by poachers. In 2005, when the first electric blue geckos appeared on the market, reptile enthusiasts worldwide fell in love with their electric blue colour. An alarming 15% of the wild population was illegally removed and exported for the pet trade between 2005 and 2009.",
           },
         ]),
+        iucnStatus: "Critically Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Lighting Up The Electric Blue's Future",
+            description:
+              "Ongoing deforestation in the form of activities like illegal timber logging and clearing for agriculture, combined with the increasing fire outbreaks, are resulting in the loss and fragmentation of these geckos' habitat. The very limestone formations where the pandanus (their host plants) grow are being mined. \n They're also heavily collected for the pet trade. The hope is for hobbyists to become aware of these geckos' fragile position in the wild and support a halt to illegal trade. \n Our hatchlings add to the 250-strong population in zoos worldwide. The species will soon be managed internationally under a European Studbook Programme.",
+          },
+        ]),
       },
       {
         name: "Estuarine Crocodile",
@@ -441,7 +595,7 @@ module.exports = {
           {
             title: "Guts of Steel",
             content:
-              "These crocs don't have big stomachs and after having had their fill, they may stow any leftovers in mangroves or underwater for another day. Large amounts of stomach acid help them break down their meals - even bones can be dissolved! To aid their digestion, they also swallow and store stones in their guts that help grind up their food. \n \\r\nIf all this mealtime talk is making you 'hungry' for action, come catch our croc token feeding session, happening every Sunday at 4.45pm.",
+              "These crocs don't have big stomachs and after having had their fill, they may stow any leftovers in mangroves or underwater for another day. Large amounts of stomach acid help them break down their meals - even bones can be dissolved! To aid their digestion, they also swallow and store stones in their guts that help grind up their food. \n If all this mealtime talk is making you 'hungry' for action, come catch our croc token feeding session, happening every Sunday at 4.45pm.",
           },
           {
             title: "Motherly Care",
@@ -452,6 +606,14 @@ module.exports = {
             title: "Boy or Girl?",
             content:
               "As with other crocodiles, the temperature of the nest determines the sex of the hatchlings. Males are produced between 31 to 33ºC while more females are hatched when the nest temperatures are above or below this temperature range.",
+          },
+        ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Cherish Our Local Crocs",
+            description:
+              "These awe-inspiring reptiles are often seen at Sungei Buloh Wetland Reserve and have been recorded in estuaries and reservoirs including the Singapore River, Kallang River, Sungei Seletar and Kranji Reservoir, and even Pulau Tekong. They are usually found in the water or at the mudflats. NParks posts warning signs at their usual haunts. If you come across one in the wild, admire it from a respectful distance. Stay on the designated path and do not get into the water. If it is on the path, stay calm and back away slowly. Do not approach, disturb or feed it. Like other wild animals, crocodiles will not harm humans unprovoked.",
           },
         ]),
       },
@@ -484,6 +646,14 @@ module.exports = {
               "The fossa is featured as a sly and dangerous creature in Malagasy folklore. It can turn invisible by contracting the pupils of its eyes. Just with a fart, the fossa can kill a coop of chickens. The fossa is believed to steal babies from their cribs and snatch children wandering alone in the forest. It licks a person into a deep sleep before cutting him open. These myths once protected the fossa. It was feared in most parts of Madagascar. But now, more fossas are being hunted by humans.",
           },
         ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Saving Fossas",
+            description:
+              "Wild fossas are losing their forest homes. Lemurs, their main prey, are disappearing due to deforestation. Fossas are killed as pests for preying on domestic chickens.\n Our fossas are managed under the European Endangered Species Programme (EEP), which involves coordinated breeding efforts by participating zoos. Transfer of individuals between these zoos is based on genetic compatibility. We hope to eventually breed our fossas and contribute to the continued survival of the species.",
+          },
+        ]),
       },
       {
         name: "Gaboon Viper",
@@ -507,6 +677,14 @@ module.exports = {
             title: "Fight for Love",
             content:
               "Males of this species engage in combat during the breeding season. The first male 'picks' a fight by rubbing his chin along the back of another. In response, the second male rears its head up high. The first male follows suit and their necks intertwine. Levelling their heads, they face off and push, bodies locking together as they switch positions. Oblivious to everything but their rivalry, they remain locked in combat even after falling off a surface or into water. When they tire, they may take a consensual break before resuming. The victor that succeeds in pushing the other's head to the ground gains mating rights to the female.",
+          },
+        ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Bushmeat and Traditional Medicine",
+            description:
+              "This species is considered to be Vulnerable due to population declines provisionally estimated to be as much as to 30% globally over the past 15-18 years (three generations) (particularly in Nigeria and the Democratic Republic of the Congo), based on inference both from reported rates of direct decline and from levels of exploitation for bushmeat and traditional medicine, and because the known causes of decline have not ceased.",
           },
         ]),
       },
@@ -545,6 +723,14 @@ module.exports = {
               "The tight skin on the giraffe's lower legs maintain pressure and ensure blood does not pool in their legs, despite the force of gravity on the huge amount of blood in their body. Scientists have studied the giraffe extensively to design g-suits for fighter pilots. That's g for gravity, not giraffe. During high g-force maneouvres, these tight-fitting trousers exert pressure on the pilots' abdomen and legs to prevent blood-pooling and consequent loss of consciousness.",
           },
         ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Towering Threats To The Giraffe",
+            description:
+              "Besides habitat loss and change due to expanding agricultural and mining activities, giraffes in the wild are threatened by increased human-wildlife conflict, illegal hunting, and civil unrest. \n A dramatic 40% decline has been recorded over 20 years, hence its up-listing from Least Concern to Vulnerable.",
+          },
+        ]),
       },
       {
         name: "Golden Poison Fron",
@@ -563,6 +749,14 @@ module.exports = {
             title: "To Kill and To Heal",
             content:
               "This species has a sole predator - a tiny snake immune to their toxins and that feeds only on young frogs due to its small size. \n For centuries, the indigenous people of Colombia have upped their hunting game by tipping their blowgun darts into the frog's venom. It is thought that plant poisons, carried in the bodies of the frog's invertebrate prey, are the source of the frog's toxicity. If raised under human care and fed prey items that don't originate from their natural habitat, the frogs never develop venom. \n Medical researchers have developed a painkiller by recreating one of the compounds in the frog's toxins synthetically.",
+          },
+        ]),
+        iucnStatus: "Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Keeping A Species Away From Harm",
+            description:
+              "Found only in a small plot of rainforest on the Pacific coast of Colombia, this species is facing habitat loss due to the use of land for illegal crop planting, logging, and mining activities. \n Though the population in its tiny range remains relatively abundant, it is at risk due to the widespread destruction of the forest. Pollution resulting from pesticide spraying of illegal crops renders them particularly vulnerable. \n We have successfully bred the golden poison frog at the Singapore Zoo, a first-time feat for us. We maintain a pool of genetically-diverse animals in our collection, that may become part of future conservation efforts.",
           },
         ]),
       },
@@ -585,6 +779,14 @@ module.exports = {
               "In Southeast Asia, a quick-witted mousedeer character called Sang Kanchil, is the star of many trickster stories. These stories have been told and passed down for generations as part of Malaysian and Indonesian folklore. In these tales, the tiger and crocodile are two of the big and powerful creatures in the forest often outwitted by the wily mousedeer. Singapore as a country has often been likened to Sang Kancil - making up for her small size with the nimbleness and cunning to overcome seemingly insurmountable challenges.",
           },
         ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Remain Widespread",
+            description:
+              "The Greater Oriental Chevrotain is listed as Least Concern because chevrotains remain widespread and at least locally common in the Sundaic region and, at least on Borneo, it appears that this species is resilient to hunting although probably not to habitat degradation. Better data would allow a more confident assessment. Its wide altitudinal tolerance (presumed to be up to 1,000 m asl) means that it has large populations outside the altitude of very rapid forest loss so cannot be listing on population decline rate inferred through Sundaic forest trends.",
+          },
+        ]),
       },
       {
         name: "Green Basilisk",
@@ -602,12 +804,20 @@ module.exports = {
           {
             title: "'Walking' on water",
             content:
-              "If frightened while on land, these lizards dash away on their hind legs at speeds of over 11 km/hr. That speed, along with their specialised feet structure, allows them to run across a fair distance of water without breaking the surface tension. \n \\r\nThe long, flat toes on their rear feet have fringes of scaly skin on the bottom, which unfurl when the lizards splay their toes in the water,increasing surface area. As they continue to slap their feet hard against the water, a tiny pocket of air is created. This keeps them from sinking, provided their speed is maintained. They can move along the water surface in this way for 4.5m or more.",
+              "If frightened while on land, these lizards dash away on their hind legs at speeds of over 11 km/hr. That speed, along with their specialised feet structure, allows them to run across a fair distance of water without breaking the surface tension. \n The long, flat toes on their rear feet have fringes of scaly skin on the bottom, which unfurl when the lizards splay their toes in the water,increasing surface area. As they continue to slap their feet hard against the water, a tiny pocket of air is created. This keeps them from sinking, provided their speed is maintained. They can move along the water surface in this way for 4.5m or more.",
           },
           {
             title: "Swimming Lizards",
             content:
               "When the lizards tire, their pace slackens and gravity subsequently takes over. Dropping on all fours, the lizards become partially submerged and swim in continuation of their flight. They have strong swimming skills and can remain underwater for 10-30 minutes. \n If threatened while they're up in a tree overhanging water, they can drop right into the water and sprint, upright, at more than a metre per second across the surface.",
+          },
+        ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Large Overall Population",
+            description:
+              "Listed as Least Concern in view of its wide range, large overall population, and because it is not declining fast enough to qualify for a threatened category.",
           },
         ]),
       },
@@ -623,6 +833,14 @@ module.exports = {
             title: "Turning The Tables",
             content:
               "One of the largest kangaroo species, the eastern grey kangaroo swims well and evades predators, like dingoes, by diving. When cornered, it may turn the tables to hold the predators underwater and drown them.",
+          },
+        ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Large Population",
+            description:
+              "Listed as Least Concern in view of its wide distribution, large population, occurrence in a number of protected areas, lack of major threats, and because it is not in decline.",
           },
         ]),
       },
@@ -665,6 +883,14 @@ module.exports = {
               "Interestingly, females go into 'deceptive' sexual cycles upon a takeover. Even females still nursing their young develop genital swellings and present themselves to the new male. Perhaps females that mate with him are more favoured. Or it could be the females' way of protecting their young from being killed - new males often undertake mass infanticide. Either way, it's all a show and the females do not become pregnant any sooner than if the leader had remained unchanged.",
           },
         ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Widespread and abundant.",
+            description:
+              "Listed as Least Concern as this species is widespread and abundant, and there are no major range-wide threats believed to be causing a significant decline. The decline of a major predator of the Hamadryas baboon, the leopard Panthera pardus, has certainly resulted in increased densities locally. Following recent urban development in the mountains of south-western Saudi Arabia, local populations of Papio hamadryas have increased in numbers around cities (Biquand et al. 1994).",
+          },
+        ]),
       },
       {
         name: "Indian Gharial",
@@ -699,6 +925,14 @@ module.exports = {
             title: "Banking on the sand",
             content:
               "Large-scale sand mining for construction degrade the sand banks on which the gharials nest. Dams and irrigation diversions have resulted in perennial rivers drying up. Unlike other crocodilians, the gharial can't walk overland to find other water sources. During the dry months, when gharials breed, riparian people, among the poorest in India, plant crops and herd livestock along the river, competing with the gharials for precious riverine real estate.",
+          },
+        ]),
+        iucnStatus: "Critically Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Dramatic Decline",
+            description:
+              "In the span of 60 years, their population has plummeted 98%. Since the 1970s, much money and effort have been spent on the reintroduction of gharials, with scant success. Besides the gharial, other freshwater species like the Ganges river dolphin, mugger crocodile, and mahseer are also on the decline.",
           },
         ]),
       },
@@ -736,6 +970,14 @@ module.exports = {
               "In addition, Komodos have a gland in their lower jaw containing venom that decreases the blood pressure of their prey and prevents the blood from clotting. Singapore Zoo contributed to research work on venom production in Komodo dragons by providing tissue samples to researchers from the University of Melbourne.",
           },
         ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Hard To Breed",
+            description:
+              "As with many reptiles, one of the challenges in breeding Komodo dragons is the difficulty of telling males from females without DNA tests or ultrasound scans. After 34 years of caring for Komodo dragons, we celebrated our first-ever hatching in 2009. and we've been successfully breeding them since. \n Wild Komodos are on the decline due to a dearth of egg-laying females, poaching and human encroachment. We hope to help ensure their future survival through our breeding efforts.",
+          },
+        ]),
       },
       {
         name: "L'Hoest's Monkey",
@@ -756,10 +998,18 @@ module.exports = {
               "Perhaps not a “fun” fact, but an interesting one: L'Hoest's monkeys can become infected with Simian Immunodeficiency Virus, or SIV, which becomes HIV when transmitted to humans.",
           },
         ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Conflict Region",
+            description:
+              "Allochrocebus lhoesti has undergone a significant population decrease in the past and continues to decline. Most of this species' range is in a region of intense conflict, which has exacerbated the known threats, which are mainly bushmeat hunting and habitat loss due, in large part, to artisanal mining. It is suspected that these declines will continue in the face of ongoing political turmoil, and will result in an overall population reduction of more than 30% over a 30-year time frame from 1995 to 2025 (given a 10-year generation period), qualifying the taxon as Vulnerable A4cd",
+          },
+        ]),
       },
       {
         name: "Leopard",
-        locationId: null,
+        locationId: 67,
         lifespan:
           "10 to 12 years in the wild. 21 to 23 years under human care.",
         diet: "Mid-sized ungulates, primates, birds, fish and carrion.",
@@ -782,6 +1032,14 @@ module.exports = {
               "Their coat colour ranges from tawny in warm, dry habitats to reddish-orange, even black in dense forests. Leopards with a black coat are commonly referred to as `black panthers'. Like other leopards, they have a spotted coat although their distinctive black rosette markings are much less visible on a black coat. Leopards in East Africa sport circular rosettes while those in South Africa have squarish ones. Cubs are ash-grey with indistinct rosettes. Solid black spots cover a leopard's chest, feet, and face. Each leopard has a unique coat pattern.",
           },
         ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Human-leopard conflict",
+            description:
+              "In many sub-Saharan countries, farmers are allowed to kill predators threatening life and property. Livestock is easy pickings for leopards and injured leopards may even prey on humans. Conflict with humans often ends in retaliatory killings and this may be the greatest cause of leopard decline.",
+          },
+        ]),
       },
       {
         name: "Mousedeer",
@@ -802,10 +1060,18 @@ module.exports = {
               "In Southeast Asia, a quick-witted mousedeer character called Sang Kanchil, is the star of many trickster stories. These stories have been told and passed down for generations as part of Malaysian and Indonesian folklore. In these tales, the tiger and crocodile are two of the big and powerful creatures in the forest often outwitted by the wily mousedeer. Singapore as a country has often been likened to Sang Kancil - making up for her small size with the nimbleness and cunning to overcome seemingly insurmountable challenges.",
           },
         ]),
+        iucnStatus: "Data Deficient",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Clarity Required",
+            description:
+              "Tragulus javanicus is listed as Data Deficient partly reflecting the lack of clarity over how many species of chevrotain occur on Java and therefore how much of the available information about the genus refers to T. javanicus. However, even taking an assumption that there is only T. javanicus on the island, information applicable to red listing is limited. Given the considerable uncertainties that exist for all members of the genus (see Red List accounts for other species), largely as a result of general oversight of chevrotains in faunal investigations, the comparison of some historical accounts of T. javanicus with recent fieldwork results is difficult to interpret, not least the species tolerance of hunting is poorly known, as is it's likely response to habitat disturbance.",
+          },
+        ]),
       },
       {
         name: "Malayan Tiger",
-        locationId: null,
+        locationId: 68,
         lifespan: "8 to 10 years in the wild; Up to 18 to 20 years in zoos.",
         diet: "Mainly hoofed animals, like deer",
         habitat: "Forests, swamps, scrubland.",
@@ -820,6 +1086,29 @@ module.exports = {
             title: "Tigers In Singapore",
             content:
               "The Malayan tiger used to roam the forests of Singapore in bygone era. When their habitats were converted to plantations around 1825, human-tiger encounters escalated. In 1850, tigers were reported to be claiming human lives daily - improbable given the low tiger numbers to start with. Seen as vermin, tigers were shot on sight. Shooters were rewarded with money. By the 1870s, tigers were all but gone. The last tiger in Singapore was shot in 1930 in Choa Chu Kang.",
+          },
+        ]),
+        iucnStatus: "Critically Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "MYCAT",
+            description:
+              "Fewer than 300 Malayan tigers are left in the wild. Besides illegal poaching, habitat loss and human-tiger conflicts compound the problem. To involve and educate members of the public, the Malaysian Conservation Alliance for Tigers (MYCAT) launched the Citizen Action for Tigers (CAT) Walk.",
+          },
+          {
+            title: "CAT Walk-ing",
+            description:
+              "CAT Walk-ers assist forest rangers in regular anti-poaching patrols of the Sungai Yu River Wildlife Corridor. Sungai Yu connects Taman Negara National Park and the Titiwangsa Mountains, two of the largest tiger habitats in Malaysia.",
+          },
+          {
+            title: "Deterring Poachers",
+            description:
+              "Besides removing snares and baits, CAT Walk-ers report encroachment by trespassers and poaching. The CAT Walks have dramatically decreased the number of snares found, indicating the success of the initiative. More than 2,000 members of the public from 38 countries have walked over 5,270 km of the forest, disarming around 180 snares. A quarter of these volunteers are from Singapore.",
+          },
+          {
+            title: "My Cat to Protect",
+            description:
+              "Five of our keepers have also participated in the 'Realm of the Tiger' programme, MYCAT's expanded programme for the zoo community. Inspired by their trip, they have been sharing their experience with guests to raise awareness of the tigers' plight. You, too, can help support tiger conservation",
           },
         ]),
       },
@@ -847,10 +1136,18 @@ module.exports = {
               "The flying foxes have huge eyes with keen eyesight to locate fruits and flowers at night. They can eat up to half of their body weight in fruit on a daily basis. When sated, they right themselves and do a “free-fall” take off to look for a roosting spot. They also turn the right side up in order to defecate. They rest head down, wings wrapped around their bodies. They do not have sweat glands. On hot days, they cool down by fanning their wings. When that doesn't work, they seek shade and then lick themselves all over - the evaporation of their saliva helps cool their bodies.",
           },
         ]),
+        iucnStatus: "Near Threatened",
+        iucnDescription: JSON.stringify([
+          {
+            title: "For The Love Of Durian",
+            description:
+              "Flying foxes are threatened by over-hunting and deforestation. They are hunted as exotic meat and also consumed as a traditional cure for asthma. Previously, it was thought that flying foxes eat up the flowers of the durian tree and many orchard owners set up nets to trap them. \n Studies using camera traps have confirmed that these bats are probably the most effective pollinators for durian trees. \n Pollen sticks to their fur as they feed on the nectar, and is transferred when they move off to feed on the flowers of another tree. If flying foxes were to go extinct one day, so might durians. That alone is reason enough to conserve them.",
+          },
+        ]),
       },
       {
         name: "Naked Mole Rat",
-        locationId: null,
+        locationId: 73,
         lifespan: "10 to 30 years, longer than any other rodent.",
         diet: "Underground parts of plants, especially succulent tubers.",
         habitat: "Burrows and tunnels in grassy semi-arid regions.",
@@ -874,7 +1171,7 @@ module.exports = {
           {
             title: "Queen of the colony",
             content:
-              "Naked mole rats are one of the only two mammalian species to live in structured social colonies. Each colony comprises 70 to 300 naked mole rats, led by the queen. She is larger than the others and the only one to breed. The queen often inspects the tunnels and chambers that make up her 'kingdom', biting and pushing her 'subjects' to remind them who's boss. For the queen is not born into her position: she earned it by fighting off the other females when the queen before her died. A queen's position is never secure and she must defend her \"title\" if she wants to stay in charge.",
+              "Naked mole rats are one of the only two mammalian species to live in structured social colonies. Each colony comprises 70 to 300 naked mole rats, led by the queen. She is larger than the others and the only one to breed. The queen often inspects the tunnels and chambers that make up her 'kingdom', biting and pushing her 'subjects' to remind them who's boss. For the queen is not born into her position: she earned it by fighting off the other females when the queen before her died. A queen's position is never secure and she must defend her title if she wants to stay in charge.",
           },
           {
             title: "Communal Living",
@@ -890,6 +1187,14 @@ module.exports = {
             title: "One For All And All For One",
             content:
               "A colony cooperates for the common good of the group and that includes the sharing of food. If a food scout finds a tasty tuber, he or she carves a piece off with those powerful, ever-growing incisors and hurries back to the group, chirping and waving the morsel overhead. The other workers follow the scout's scent (they all roll in their own faeces so they share the same smell) to the tuber, which is then brought back, piece by piece, to the food chamber.",
+          },
+        ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Wide Distribution",
+            description:
+              "The Naked mole Rat is listed as Least Concern in view of its wide distribution, it is relatively common, with no immediate major threats. However, continued population monitoring of this eusocial species is a necessary conservation measure.",
           },
         ]),
       },
@@ -922,10 +1227,18 @@ module.exports = {
               "When a chameleon comes face-to-face with a rival, it rapidly inflates its body and changes colour in a show of dominance that is usually enough to decide a dispute. The colourful display may also be a way to impress potential mates. Just below a chameleon's skin is a layer of yellow pigments and very tiny crystals (nanocrystals). Chameleons are able to expand or contract the crystals, which interact with the yellow pigments to produce striking changes in skin colours.",
           },
         ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Wide Distribution",
+            description:
+              "Listed as Least Concern as the species is widespread in northeastern Madagascar, and common in disturbed and degraded habitats.",
+          },
+        ]),
       },
       {
         name: "Proboscis Monkey",
-        locationId: null,
+        locationId: 74,
         lifespan: "13 years under human care.",
         diet: "Mainly leaves. Also non-sweet fruit and seeds.",
         habitat:
@@ -948,10 +1261,18 @@ module.exports = {
               "Very few zoos have proboscis monkeys because of their special dietary needs. The monkeys are picky eaters - they eat leaves from certain plants only, and only shoots and young leaves. Our keepers provide the proboscis monkeys with 80kg of fresh leaves daily to pick and choose. The leaves are collected from three to four different plant species around the Zoo. For a balanced diet, 'toppings' such as primate pellets, corn, fruits and vegetables are added to the 'salad'.",
           },
         ]),
+        iucnStatus: "Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Poster Boy",
+            description:
+              "Cyrano, our big-nosed dominant male, recently became the 6,000th species to be photographed under an effort by the National Geographic. The project was started to raise awareness of conservation issues by creating portraits of every animal under human care. It aims to complete 12,000 portraits.",
+          },
+        ]),
       },
       {
         name: "Pygmy Hippo",
-        locationId: null,
+        locationId: 75,
         lifespan: "Up to 43 years under human care.",
         diet: "Grasses, herbs, leaves, roots, ferns and fallen fruit.",
         habitat: "Near rivers and streams in lowland forests.",
@@ -971,6 +1292,14 @@ module.exports = {
             title: "Pink Sunscreen",
             content:
               "Pygmy hippos have greyish-black skin, which is smooth and thin to help them stay cool in the humid rainforest. But this also means they dehydrate quickly in the sun. On hot days, they survive the heat by staying in the water. They have no sweat glands but their skin secretes a pink fluid that looks like beads of sweat. This mucous fluid is sometimes called “blood sweat” because of its colour. It works like built-in sunscreen to protect their sensitive skin, giving them a shiny, wet, appearance.",
+          },
+        ]),
+        iucnStatus: "Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Healthy Hippos",
+            description:
+              "To maintain a healthy population of pygmy hippos under human care, there is a need to enhance and diversify their gene pool, so as to ensure healthy and viable offspring are produced. To date, we have sent more than 24 pygmy hippos to zoos around the world to participate in global breeding programmes.",
           },
         ]),
       },
@@ -1009,10 +1338,17 @@ module.exports = {
               "Rabbits can clean themselves and do not need baths. You need to brush your rabbit twice a week and trim its nails when they grow too long. Rabbits may swallow hair when they groom themselves, especially during the moulting stage. The swallowed hair forms hair balls, blocking the digestive system as rabbits are unable to cough them out. Regular brushing is important to prevent the problem. Longhaired breeds need to be groomed daily and shorthaired breeds, once every few days.",
           },
         ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Abundant",
+            description: "Widespread and abundant across its geographic range.",
+          },
+        ]),
       },
       {
         name: "Red-Ruffed Lemur",
-        locationId: null,
+        locationId: 76,
         lifespan: "15 to 20 years in the wild. Up to 36 years in human care.",
         diet: "Mainly fruits, also leaves, seeds and nectar.",
         habitat: "Deciduous tropical forests.",
@@ -1022,6 +1358,14 @@ module.exports = {
             title: "Flaming Red",
             content:
               "With rich rust-red fur offsetting a jet-black face, these are easily among the most beautiful of primates. Under the sun, its brilliant coat looks like it is on fire. A small patch of white fur on its neck contrasts with the rest of its flame-red coat.",
+          },
+        ]),
+        iucnStatus: "Critically Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Threatened By Human Activities",
+            description:
+              "The only place to see this endangered primate in the wild is on Madagascar's Masoala Peninsula. Political upheaval in 2009 led to a rapid upsurge of illegal logging, which had a serious impact on Masoala Nature Reserve, the only protected area in the lemurs' limited range. Red-ruffed lemurs are also trapped and eaten as food. Efforts are now underway to reestablish a protected area for these critically endangered lemurs.",
           },
         ]),
       },
@@ -1041,12 +1385,20 @@ module.exports = {
           {
             title: "Play Face And Other Signals",
             content:
-              "Douc langurs are playful animals, juveniles more so than adults. You'd see jumping, running, climbing, hanging and swinging, while pulling, wrestling, mouthing, touching and chasing a partner: all in a day's play. Like many other primates, doucs have a specific \"play face\" - mouth open and teeth partially showing. This may be used to initiate grooming or play. A stare with raised eyebrows is a threat and the other party often backs down with a submissive grimace.",
+              "Douc langurs are playful animals, juveniles more so than adults. You'd see jumping, running, climbing, hanging and swinging, while pulling, wrestling, mouthing, touching and chasing a partner: all in a day's play. Like many other primates, doucs have a specific “play face\\\" - mouth open and teeth partially showing. This may be used to initiate grooming or play. A stare with raised eyebrows is a threat and the other party often backs down with a submissive grimace.",
           },
           {
             title: "Closely Inspected",
             content:
               "Douc langurs are closely related to the proboscis monkeys and snub-nosed monkeys. Similarly, doucs have a leaf-rich diet as well as a multi-chambered stomach that helps them to break down leaf cellulose. They also eat flowers, unripe fruits and their seeds. Doucs are very particular when foraging for food - nothing is ingested without scrutiny. Ripe fruit is discarded, as are old leaves. Each morning, the keepers make their rounds to gather a variety of fresh leaves to ensure that our douc langurs get their best greens. Doucs don't drink water - they can derive the water they need from their food.",
+          },
+        ]),
+        iucnStatus: "Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Languishing In The Wild",
+            description:
+              "The douc langurs' habitat suffered intense disruption during the Vietnam war, in areas where defoliants were used. Their current decline is due to deforestation, hunting for food and use in traditional medicines. They have also been captured for use in medical research and are sold as exotic pets.",
           },
         ]),
       },
@@ -1073,6 +1425,14 @@ module.exports = {
             title: "Getting Antsy",
             content:
               "The lizards probably get the foul-tasting chemical in their blood from their diet of ants, especially venomous harvester ants. Snapping their sticky tongue out like a rubber band, they lap the insects up and catapult them to the back of their throat. There, the ants are coated in thick mucus, before they're swallowed whole. Thus, the lizards are protected from the ants' stings, allowing them to exploit an oft-avoided food source. They need a big stomach to hold lots of ants, which leads to their stocky build and lack of speed. Their diet could have been the driving force behind the evolution of their many bizarre defence mechanisms.",
+          },
+        ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Wide Distribution",
+            description:
+              "Listed as Least Concern in view of its wide distribution, presumed large population, and because it is unlikely to be declining fast enough to qualify for listing in a more threatened category.",
           },
         ]),
       },
@@ -1106,6 +1466,14 @@ module.exports = {
               "Though all the males studied made the two calls, low-ranking ones were more likely to go “hmm”. By targeting preferred individuals in the group, these misfits tread the tightrope between getting pushed around by the troop and being pounced on by predators. \n The results highlight how meaningful and nuanced the ring-tails' social behaviour is. Studying the language of lemurs may give us clues as to how humans' distant relatives may have interacted to keep their groups together.",
           },
         ]),
+        iucnStatus: "Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Deforestation",
+            description:
+              "Many rainforest animals are threatened by deforestation, habitat degradation, and the illegal wildlife trade.",
+          },
+        ]),
       },
       {
         name: "Roti Snake-Necked Turtle",
@@ -1126,10 +1494,18 @@ module.exports = {
               "Recently described as a unique species, the Roti Island snake-neck occurs in three separate populations solely on the tiny island of Roti. In the five years following its description, excessive harvesting almost completely depleted wild numbers within all 70 km <sup>2</sup> of its available habitat. A distinct endemic species with a restricted range, it commands sky-high prices in the pet trade. Unfortunately, due to unsustainable exploitation, it is now considered commercially extinct by Indonesian traders. Despite strict trade sanctions - it is listed in CITES Appendix I, with zero export quota - the species remains at high risk of extinction.",
           },
         ]),
+        iucnStatus: "Critically Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Conserving the Roti Island snake-necks",
+            description:
+              "We house an assurance colony at Singapore Zoo to safeguard the Roti snake-necked turtle, the only one for the species in Asia. The turtles under our care were sent to us from breeding programmes in the United States and Austria in 2015. \n After years of planning, 13 of these turtles finally made it back to their native country of Indonesia in September 2021, in a joint effort led by The Ministry of Environment and Forestry Republic of Indonesia (MOEF) and Balai Besar KSDA Nusa Tenggara Timur (Bbksda Ntt) Province with the support of Mandai Nature, Singapore Zoo, and Wildlife Conservation Society - Indonesia Program (WCS-IP) WCS Indonesia. \n It is the first repatriation of its kind for the species and marks a significant milestone in the ongoing conservation efforts for turtles.",
+          },
+        ]),
       },
       {
         name: "Sun Bear",
-        locationId: null,
+        locationId: 69,
         lifespan: "Up to 36 years under human care.",
         diet: "Termites, ants, insects and their larvae, honey.",
         habitat: "Dense lowland, tropical forests.",
@@ -1151,6 +1527,14 @@ module.exports = {
               "Though it's the smallest bear, the sun bear is one of the fiercest animals found in the Southeast Asian forest. It is known to attack unprovoked and to battle even tigers and large pythons when threatened. Its short, dark-brown coat is unusually dense for a bear living in the tropics. If a predator latches on during a struggle, the sun bear can turn in its loose skin and return the bite. This bear is also nimble on its feet and can move very quickly when it wants to.",
           },
         ]),
+        iucnStatus: "Vulnerable",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Free The Bears",
+            description:
+              "Cute and cuddly, sun bear cubs are often captured for the illegal pet trade. Many a mother sun bear has been killed trying to protect her cubs from poachers. Trade on social media further compounds the issue.",
+          },
+        ]),
       },
       {
         name: "Tree Kangaroo",
@@ -1163,7 +1547,7 @@ module.exports = {
           {
             title: "Back Up The Trees",
             content:
-              'A long time ago, kangaroos evolved from tree-dwelling marsupials, developing adaptations for living on the ground. Tree kangaroos broke off from their land cousins by going back to arboreal life. Their forelimbs grew muscular, their feet broadened and their claws curved to help them climb. They usually take little hopping steps and are unable to move more than two "kangaroo hops" at a go. However, they can leap up to 15m from tree to ground and can even walk backwards!',
+              'A long time ago, kangaroos evolved from tree-dwelling marsupials, developing adaptations for living on the ground. Tree kangaroos broke off from their land cousins by going back to arboreal life. Their forelimbs grew muscular, their feet broadened and their claws curved to help them climb. They usually take little hopping steps and are unable to move more than two \\"kangaroo hops\\" at a go. However, they can leap up to 15m from tree to ground and can even walk backwards!',
           },
           {
             title: "Pouch Protection",
@@ -1186,6 +1570,29 @@ module.exports = {
               "Our 'mummy's boy' is a big boy now and has now become a father himself. The World Association of Zoos and Aquarium's (WAZA) Global Species Management Plan (GSMP) has “match-made” Makaia with Nupela, who hailed from Taronga Zoo.The first Goodfellow's tree kangaroo to be born there in over 20 years, Nupela also enjoyed 'celebrity' status back in Sydney. Like Makaia, she arrived here in 2016. It seems she's something of a foodie too - a perfect fit for Singapore!",
           },
         ]),
+        iucnStatus: "Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Halved In Half A Century",
+            description:
+              "In the last 50 years, their wild population has gone down 50% due to hunting for food by locals and habitat loss to logging. There are only 50 individuals under human care globally. In 2012, a GSMP was set up by WAZA to ensure the survival of this species.",
+          },
+          {
+            title: "Managed breeding",
+            description:
+              "Such programmes enable zoos from across countries and continents to coordinate the breeding of threatened species in a scientific manner. Demographic and genetic sustainability of the population is the goal. Various zoos in Australia, Europe, North America, Japan and Singapore are party to this GSMP.",
+          },
+          {
+            title: "Matchmade for conservation",
+            description:
+              "The pairing of Makaia and Nupela is part of global efforts to save the species. We have seen success in our breeding efforts, and we have contributed to the GSMP by sending the offspring to zoos in Japan and France. By matchmaking suitable individuals from participating zoos, inbreeding is minimised and the global genetic pool under human care is enhanced.",
+          },
+          {
+            title: "Assurance Populations",
+            description:
+              "The population in zoos also acts as an assurance colony in the case of a catastrophic decline in the wild. Once the threats in the wild are mitigated, reintroduction of suitable individuals from the assurance colony will be explored. Together with conservation efforts in the animals' natural habitats, these breeding programmes help to ensure their continued survival in the face of threats like hunting and habitat destruction.",
+          },
+        ]),
       },
       {
         name: "Linnaeus's Two-Toed Sloth",
@@ -1199,6 +1606,14 @@ module.exports = {
             title: "Topsy-Turvy Lifestyle",
             content:
               "Whether they are sleeping, eating, mating, or giving birth, sloths carry out most of their activities hanging upside-down from tree branches. To accommodate their topsy-turvy lifestyle, the internal placement of organs like the heart, liver, and spleen is different from what is usually seen in mammals. Even their hair grows in the opposite direction, curving from stomach to back, probably so that rainwater can flow away from their bodies. Each strand of hair has a groove where algae collects. This gives the sloths an overall greenish hue that camouflages them from predators.",
+          },
+        ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Protecting Their Homes",
+            description:
+              "The Amazon rainforest is the only place in the world where the two-toed sloths are found in the wild. Its destruction means the sloths and other animals of the forest will be impacted. Several organisations are currently working to keep tracts of rainforest safe from logging and other human activities. Fortunately, two-toed sloths live in a number of these protected areas. You, too, can do your part to protect animals like the sloth by making a conscious choice as a consumer to only buy forest-friendly products.",
           },
         ]),
       },
@@ -1227,10 +1642,28 @@ module.exports = {
               "White rhinos mark their territory using communal dung piles (middens). Males step on and kick their faeces around to warn off other males. Males can also tell if females are ready to mate with a whiff of the midden. \n Courtship disputes are settled with a clash of horns. Sadly, these horns are no defence against poachers' guns. Alike to a mass of compacted hair, rhino horns are strangely prized for medicinal and ornamental uses and worth more than gold on the black market.",
           },
         ]),
+        iucnStatus: "Near Threatened",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Inter-Zoo Breeding Efforts",
+            description:
+              "Uhura, our first rhino baby, went to Australia's Monarto Zoo in Dec 2000. Her younger siblings have gone to zoos in Asia and USA. Inter-zoo breeding programmes diversify the gene pool and increase rhino numbers. Uhura is now a proud mother herself!",
+          },
+          {
+            title: "Pushed To The Brink",
+            description:
+              "There are two subspecies of the white rhino - the northern and the southern. The population of the northern was stable up to the late 1990s. In less than a decade, they have been wiped out by rampant poaching. The last few in a Czech zoo were sent to Kenya. They are the northern's last hope.",
+          },
+          {
+            title: "The 'Hornest' Truth",
+            description:
+              "The southern was also once on the brink of extinction. By the end of the 19th century, there were just 20-50 left. Conservation efforts grew numbers in the wild to 20,000 by 2010. But illegal poaching, too, is on the rise. By 2017, these numbers have declined to 18,000. The 'hornest' truth is: you buy, they die. Let's stamp out the rhino horn trade together.",
+          },
+        ]),
       },
       {
         name: "White Tiger",
-        locationId: null,
+        locationId: 68,
         lifespan: "8 to 10 years in the wild; Up to 18 to 20 years in zoos.",
         diet: "Mainly hoofed animals, like deer",
         habitat: "Dense jungles and mangrove swamps.",
@@ -1250,6 +1683,29 @@ module.exports = {
             title: "Tigers In Training",
             content:
               "Our vets conduct routine medical checks on all animals. In the past, our tigers have had to be sedated before the vets could do their job. These days, our keepers and our vets work to condition our tigers for health checks. This reduces stress for both our tigers and staff. Targets are introduced along with food to focus the tigers' attention while the necessary checks are done. The tigers are fed tasty morsels of meat by a keeper while a vet takes blood from its tail.",
+          },
+        ]),
+        iucnStatus: "Critically Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "MYCAT",
+            description:
+              "Fewer than 300 Malayan tigers are left in the wild. Besides illegal poaching, habitat loss and human-tiger conflicts compound the problem. To involve and educate members of the public, the Malaysian Conservation Alliance for Tigers (MYCAT) launched the Citizen Action for Tigers (CAT) Walk.",
+          },
+          {
+            title: "CAT Walk-ing",
+            description:
+              "CAT Walk-ers assist forest rangers in regular anti-poaching patrols of the Sungai Yu River Wildlife Corridor. Sungai Yu connects Taman Negara National Park and the Titiwangsa Mountains, two of the largest tiger habitats in Malaysia.",
+          },
+          {
+            title: "Deterring Poachers",
+            description:
+              "Besides removing snares and baits, CAT Walk-ers report encroachment by trespassers and poaching. The CAT Walks have dramatically decreased the number of snares found, indicating the success of the initiative. More than 2,000 members of the public from 38 countries have walked over 5,270 km of the forest, disarming around 180 snares. A quarter of these volunteers are from Singapore.",
+          },
+          {
+            title: "My Cat to Protect",
+            description:
+              "Five of our keepers have also participated in the 'Realm of the Tiger' programme, MYCAT's expanded programme for the zoo community. Inspired by their trip, they have been sharing their experience with guests to raise awareness of the tigers' plight. You, too, can help support tiger conservation",
           },
         ]),
       },
@@ -1276,6 +1732,14 @@ module.exports = {
             title: "Creatures of habit",
             content:
               "Sakis are partial towards seeds, spending 95-99% of total consumption time on breaking them open and eating them. To drink water, sakis soak their hands in water and lick them. Equally peculiar is their bedding down posture - they curl up on branches like a cat! They typically spend the night in larger trees in the canopy that provide good cover.",
+          },
+        ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Presence in a number of protected areas",
+            description:
+              "Listed as Least Concern as throughout the large range, the habitat remains largely intact and there is little human pressure outside of city centres.",
           },
         ]),
       },
@@ -1308,6 +1772,14 @@ module.exports = {
               "Zebras are the first to move in during grass succession. By clipping away old growth and stems, they encourage the growth of young shoots. This opens up grazing opportunities for other animals like the wildebeests and gazelles, which are more picky about their food. Zebra herds leave the grazing area during the dry season. Their trampling of the land stimulates grass growth and increases the quantity and quality of vegetation for animal herds coming after them.",
           },
         ]),
+        iucnStatus: "Endangered",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Saving Grevy's Zebras",
+            description:
+              "Threatened by hunting and habitat destruction, there are only around 3,000 Grevy's zebras left in the wild. Our zebras are managed under the EAZA* Endangered Species Programme (EEP), which involves coordinated breeding efforts by participating zoos. Transfer of individuals between these zoos is based on genetic compatibility. We hope to eventually breed our zebras and contribute to the continued survival of the species.",
+          },
+        ]),
       },
       {
         name: "Cassowary",
@@ -1327,6 +1799,14 @@ module.exports = {
             title: "Daddy day care.",
             content:
               "A male sits on his nest to incubate the eggs for up to 60 days. Once the brown-and-tan striped chicks hatch, he leads them to his regular feeding grounds, protecting them and teaching them the ways of the world. Youngsters stay with their father for up to 16 months, but usually 9 to 10 months, when he chases them off to live on their own so he can get ready to breed again. By this time, they are almost adult size and can certainly take care of themselves!",
+          },
+        ]),
+        iucnStatus: "Least Concern",
+        iucnDescription: JSON.stringify([
+          {
+            title: "Habitat largely protected by World Heritage listing",
+            description:
+              "Population size estimates suggest that the population size is actually larger than previously estimated, and threats are not having the impact on global populations as previously feared. This, combined with a large range means that the species is no longer considered to approach the threshold for Vulnerable under any criterion, and hence is now listed as Least Concern.",
           },
         ]),
       },

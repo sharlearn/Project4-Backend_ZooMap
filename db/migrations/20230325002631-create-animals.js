@@ -40,6 +40,12 @@ module.exports = {
       description: {
         type: Sequelize.JSON,
       },
+      iucnStatus: {
+        type: Sequelize.STRING,
+      },
+      iucnDescription: {
+        type: Sequelize.JSON,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
