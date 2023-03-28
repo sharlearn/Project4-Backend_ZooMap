@@ -1,4 +1,6 @@
-class AnimalController {
+const BaseController = require("./baseController");
+
+class AnimalController extends BaseController {
   constructor(model, locationModel) {
     super(model);
     this.locationModel = locationModel;

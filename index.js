@@ -9,23 +9,29 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const db = require("./db/models/index");
-const { location, amenity, animal } = db;
+const { location, animal, animalactivity } = db;
 
 const BaseController = require("./controllers/baseController");
 
 const BaseRouter = require("./routers/baseRouter");
+const ActivityController = require("./controllers/activityController");
+const ActivityRouter = require("./routers/activityRouter");
 
 const locationController = new BaseController(location);
-const amenityController = new BaseController(amenity);
 const animalController = new BaseController(animal);
+const activityController = new ActivityController(
+  animalactivity,
+  location,
+  animal
+);
 
 const locationRouter = new BaseRouter(locationController, express).routes();
-const amenityRouter = new BaseRouter(amenityController, express).routes();
 const animalRouter = new BaseRouter(animalController, express).routes();
+const activityRouter = new ActivityRouter(activityController, express).routes();
 
 app.use("/location", locationRouter);
-app.use("/amenity", amenityRouter);
 app.use("/animal", animalRouter);
+app.use("/activity", activityRouter);
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);

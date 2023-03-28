@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
     {
       name: { type: DataTypes.STRING, allowNull: false },
       locationId: {
-        type: DataTypes.INT,
+        type: DataTypes.INTEGER,
         references: { model: "locations", key: "id" },
       },
       lifespan: { type: DataTypes.STRING, allowNull: false },
