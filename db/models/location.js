@@ -4,6 +4,7 @@ module.exports = (sequelize, DataTypes) => {
   class Location extends Model {
     static associate(models) {
       this.hasMany(models.animal);
+      this.hasMany(models.animalactivity);
     }
   }
   Location.init(
@@ -14,15 +15,15 @@ module.exports = (sequelize, DataTypes) => {
       latitude: {
         type: DataTypes.FLOAT,
         validate: {
-          min: -90,
-          max: 90,
+          min: 1.4,
+          max: 1.5,
         },
       },
       longitude: {
         type: DataTypes.FLOAT,
         validate: {
-          min: -180,
-          max: 180,
+          min: 103,
+          max: 104,
         },
       },
     },

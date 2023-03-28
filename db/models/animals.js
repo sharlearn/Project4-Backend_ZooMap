@@ -4,6 +4,7 @@ module.exports = (sequelize, DataTypes) => {
   class Animals extends Model {
     static associate(models) {
       this.belongsTo(models.location);
+      this.hasMany(models.animalactivity);
     }
   }
   Animals.init(
