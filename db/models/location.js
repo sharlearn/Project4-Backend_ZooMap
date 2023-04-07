@@ -5,6 +5,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       this.hasMany(models.animal);
       this.hasMany(models.animalactivity);
+      this.hasOne(models.coordinate);
     }
   }
   Location.init(

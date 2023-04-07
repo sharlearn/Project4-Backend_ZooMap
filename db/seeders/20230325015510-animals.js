@@ -733,7 +733,7 @@ module.exports = {
         ]),
       },
       {
-        name: "Golden Poison Fron",
+        name: "Golden Poison Frog",
         locationId: 8,
         lifespan: "5 to 10 years.",
         diet: "Ants, termites, beetles.",
@@ -1038,34 +1038,6 @@ module.exports = {
             title: "Human-leopard conflict",
             description:
               "In many sub-Saharan countries, farmers are allowed to kill predators threatening life and property. Livestock is easy pickings for leopards and injured leopards may even prey on humans. Conflict with humans often ends in retaliatory killings and this may be the greatest cause of leopard decline.",
-          },
-        ]),
-      },
-      {
-        name: "Mousedeer",
-        locationId: 3,
-        lifespan: "8 to 12 years.",
-        diet: "Leaves, shoots, buds, shrubs, also fallen fruit and fungi.",
-        habitat: "Tropical rainforests.",
-        range: "Southeast Asia",
-        description: JSON.stringify([
-          {
-            title: "Neither mouse nor deer",
-            content:
-              "With a rodent-like face and a rabbit's body perched precariously atop the pencil-thin feet of a piglet, the mousedeer looks like an odd mix of different animals. Delicate of build and shy by nature, this unique group of tiny hoofed mammals may lack the horns or antlers of other hoofed animals but they do sport fangs. Long and tusk-like, these enlarged upper canines are especially prominent in males, and used in slashing competititions to warn off rivals.",
-          },
-          {
-            title: "Sang Kanchil the cunning",
-            content:
-              "In Southeast Asia, a quick-witted mousedeer character called Sang Kanchil, is the star of many trickster stories. These stories have been told and passed down for generations as part of Malaysian and Indonesian folklore. In these tales, the tiger and crocodile are two of the big and powerful creatures in the forest often outwitted by the wily mousedeer. Singapore as a country has often been likened to Sang Kancil - making up for her small size with the nimbleness and cunning to overcome seemingly insurmountable challenges.",
-          },
-        ]),
-        iucnStatus: "Data Deficient",
-        iucnDescription: JSON.stringify([
-          {
-            title: "Clarity Required",
-            description:
-              "Tragulus javanicus is listed as Data Deficient partly reflecting the lack of clarity over how many species of chevrotain occur on Java and therefore how much of the available information about the genus refers to T. javanicus. However, even taking an assumption that there is only T. javanicus on the island, information applicable to red listing is limited. Given the considerable uncertainties that exist for all members of the genus (see Red List accounts for other species), largely as a result of general oversight of chevrotains in faunal investigations, the comparison of some historical accounts of T. javanicus with recent fieldwork results is difficult to interpret, not least the species tolerance of hunting is poorly known, as is it's likely response to habitat disturbance.",
           },
         ]),
       },
