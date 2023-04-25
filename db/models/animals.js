@@ -21,6 +21,8 @@ module.exports = (sequelize, DataTypes) => {
       description: DataTypes.JSON,
       iucnStatus: DataTypes.STRING,
       iucnDescription: DataTypes.JSON,
+      bannerUrl: DataTypes.STRING,
+      iconUrl: DataTypes.STRING,
     },
     {
       sequelize,

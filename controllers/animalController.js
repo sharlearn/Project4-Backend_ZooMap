@@ -6,20 +6,17 @@ class AnimalController extends BaseController {
     this.locationModel = locationModel;
   }
 
-  async getAll(req, res) {
-    try {
-      const output = await this.model.findAll();
-      return res.json(output);
-    } catch (err) {
-      return res.status(400).json({ error: true, msg: err });
-    }
-  }
-
-  async getOneByPk(req, res) {
+  async getByLocationId(req, res) {
     console.log(req.params);
-    const { id } = req.params;
+    const { locationid } = req.params;
+    console.log(locationid);
     try {
-      const output = await this.model.findByPk(id);
+      const output = await this.model.findAll({
+        where: {
+          locationId: locationid,
+        },
+      });
+
       return res.json(output);
     } catch (err) {
       return res.status(400).json({ error: true, msg: err });

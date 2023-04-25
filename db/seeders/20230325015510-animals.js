@@ -72,7 +72,7 @@ module.exports = {
       },
       {
         name: "African Penguin",
-        locationId: 70,
+        locationId: 26,
         lifespan: "15 to 20 years in the wild. Up to 40 years in captivity.",
         diet: "Sardines, anchovies,  gobies and herring.",
         habitat: "Sea cliffs, shorelines, beaches, rocky offshore islands.",
@@ -182,7 +182,7 @@ module.exports = {
       },
       {
         name: "Asian Small-Clawed Otter",
-        locationId: 71,
+        locationId: 27,
         lifespan: "Up to 16 years under human care.",
         diet: "Crustaceans and molluscs. Also small fish, insects, rodents, reptiles and frogs.",
         habitat:
@@ -222,7 +222,7 @@ module.exports = {
       },
       {
         name: "Babirusa",
-        locationId: 72,
+        locationId: 28,
         lifespan: "24 years on average.",
         diet: "Tubers, leaves, mushrooms, fruits, insects, snails.",
         habitat: "Forests and wetlands.",
@@ -289,7 +289,7 @@ module.exports = {
       },
       {
         name: "Brown Lemur",
-        locationId: 13,
+        locationId: 10,
         lifespan: "Up to 30 years.",
         diet: "Mainly fruits, young leaves and flowers.",
         habitat: "Tropical dry forest, moist lowland and montane forest.",
@@ -317,7 +317,7 @@ module.exports = {
       },
       {
         name: "Californian Sea Lion",
-        locationId: null,
+        locationId: 20,
         lifespan: "Up to 30 years in the wild.",
         diet: "A wide variety of seafood, mainly squid and fish, and sometimes clams.",
         habitat:
@@ -351,7 +351,7 @@ module.exports = {
       },
       {
         name: "Celebes Crested Macaque",
-        locationId: 65,
+        locationId: 21,
         lifespan: "18 years in the wild. Up to 34 years under human care.",
         diet: "Mainly fruits, also insects, young leaves, even crops.",
         habitat: "Humid tropical rainforests. Also farmland on forest edges.",
@@ -419,7 +419,7 @@ module.exports = {
       },
       {
         name: "Chimpanzee",
-        locationId: 66,
+        locationId: 22,
         lifespan: "Average of 45 years in the wild.",
         diet: "Fruits, plants, insects and eggs. Monkeys, wild pigs and small antelopes are also hunted.",
         habitat: "Primary and secondary rainforests, woodlands and grasslands.",
@@ -548,7 +548,7 @@ module.exports = {
       },
       {
         name: "Electric Blue Gecko",
-        locationId: 8,
+        locationId: 7,
         lifespan: "Not well-studied. Estimated 5 years or more.",
         diet: "A variety of small insects.",
         habitat: "Tropical rainforests. Arboreal, lives in trees.",
@@ -619,7 +619,7 @@ module.exports = {
       },
       {
         name: "Fossa",
-        locationId: 11,
+        locationId: 33,
         lifespan: "Up to 23 years under human care.",
         diet: "Lemurs, rodents, reptiles. Also amphibians and arthropods.",
         habitat: "Forests.",
@@ -657,7 +657,7 @@ module.exports = {
       },
       {
         name: "Gaboon Viper",
-        locationId: 8,
+        locationId: 7,
         lifespan: "18 to 20 years under human care.",
         diet: "Small mammals, birds, frogs and toads.",
         habitat: "Rainforests, savannas, other moist, tropical habitats.",
@@ -734,7 +734,7 @@ module.exports = {
       },
       {
         name: "Golden Poison Frog",
-        locationId: 8,
+        locationId: 7,
         lifespan: "5 to 10 years.",
         diet: "Ants, termites, beetles.",
         habitat: "Lowland rainforests in the Amazon.",
@@ -790,7 +790,7 @@ module.exports = {
       },
       {
         name: "Green Basilisk",
-        locationId: 8,
+        locationId: 7,
         lifespan: "10 to 13 years under human care.",
         diet: "Insects, spiders, crawfish, also small vertebrates.",
         habitat: "Tropical rainforests, near water bodies.",
@@ -1009,7 +1009,7 @@ module.exports = {
       },
       {
         name: "Leopard",
-        locationId: 67,
+        locationId: 11,
         lifespan:
           "10 to 12 years in the wild. 21 to 23 years under human care.",
         diet: "Mid-sized ungulates, primates, birds, fish and carrion.",
@@ -1043,7 +1043,7 @@ module.exports = {
       },
       {
         name: "Malayan Tiger",
-        locationId: 68,
+        locationId: 24,
         lifespan: "8 to 10 years in the wild; Up to 18 to 20 years in zoos.",
         diet: "Mainly hoofed animals, like deer",
         habitat: "Forests, swamps, scrubland.",
@@ -1119,7 +1119,7 @@ module.exports = {
       },
       {
         name: "Naked Mole Rat",
-        locationId: 73,
+        locationId: 29,
         lifespan: "10 to 30 years, longer than any other rodent.",
         diet: "Underground parts of plants, especially succulent tubers.",
         habitat: "Burrows and tunnels in grassy semi-arid regions.",
@@ -1172,7 +1172,7 @@ module.exports = {
       },
       {
         name: "Panther Chameleon",
-        locationId: 8,
+        locationId: 7,
         lifespan: "5 to 7 years.",
         diet: "Worms, also insects like crickets.",
         habitat: "Lowland scrub and forest.",
@@ -1210,7 +1210,7 @@ module.exports = {
       },
       {
         name: "Proboscis Monkey",
-        locationId: 74,
+        locationId: 30,
         lifespan: "13 years under human care.",
         diet: "Mainly leaves. Also non-sweet fruit and seeds.",
         habitat:
@@ -1244,7 +1244,7 @@ module.exports = {
       },
       {
         name: "Pygmy Hippo",
-        locationId: 75,
+        locationId: 31,
         lifespan: "Up to 43 years under human care.",
         diet: "Grasses, herbs, leaves, roots, ferns and fallen fruit.",
         habitat: "Near rivers and streams in lowland forests.",
@@ -1320,7 +1320,7 @@ module.exports = {
       },
       {
         name: "Red-Ruffed Lemur",
-        locationId: 76,
+        locationId: 32,
         lifespan: "15 to 20 years in the wild. Up to 36 years in human care.",
         diet: "Mainly fruits, also leaves, seeds and nectar.",
         habitat: "Deciduous tropical forests.",
@@ -1376,7 +1376,7 @@ module.exports = {
       },
       {
         name: "Regal Horned Lizard",
-        locationId: 8,
+        locationId: 7,
         lifespan: "5 to 8 years.",
         diet: "Ants, also spiders, sowbugs.",
         habitat: "Deserts, hot, dry environments.",
@@ -1449,7 +1449,7 @@ module.exports = {
       },
       {
         name: "Roti Snake-Necked Turtle",
-        locationId: 8,
+        locationId: 7,
         lifespan: "Unknown for this species.",
         diet: "Amphibians, fish, carrion. Insects, molluscs, worms.",
         habitat: "Shallow freshwater lakes. Also wetlands and rice fields.",
@@ -1477,7 +1477,7 @@ module.exports = {
       },
       {
         name: "Sun Bear",
-        locationId: 69,
+        locationId: 25,
         lifespan: "Up to 36 years under human care.",
         diet: "Termites, ants, insects and their larvae, honey.",
         habitat: "Dense lowland, tropical forests.",
@@ -1635,7 +1635,7 @@ module.exports = {
       },
       {
         name: "White Tiger",
-        locationId: 68,
+        locationId: 24,
         lifespan: "8 to 10 years in the wild; Up to 18 to 20 years in zoos.",
         diet: "Mainly hoofed animals, like deer",
         habitat: "Dense jungles and mangrove swamps.",

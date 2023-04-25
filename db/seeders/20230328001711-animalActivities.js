@@ -437,7 +437,7 @@ module.exports = {
       {
         animalId: 11,
         name: "Celebes Crested Macaque Keeper Talk",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 1,
         startTime: "16:15:00",
         endTime: "16:30:00",
@@ -447,7 +447,7 @@ module.exports = {
       {
         animalId: 11,
         name: "Celebes Crested Macaque Keeper Talk",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 2,
         startTime: "16:15:00",
         endTime: "16:30:00",
@@ -457,7 +457,7 @@ module.exports = {
       {
         animalId: 11,
         name: "Celebes Crested Macaque Keeper Talk",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 3,
         startTime: "16:15:00",
         endTime: "16:30:00",
@@ -467,7 +467,7 @@ module.exports = {
       {
         animalId: 11,
         name: "Celebes Crested Macaque Keeper Talk",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 4,
         startTime: "16:15:00",
         endTime: "16:30:00",
@@ -477,7 +477,7 @@ module.exports = {
       {
         animalId: 11,
         name: "Celebes Crested Macaque Keeper Talk",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 5,
         startTime: "16:15:00",
         endTime: "16:30:00",
@@ -487,7 +487,7 @@ module.exports = {
       {
         animalId: 11,
         name: "Celebes Crested Macaque Keeper Talk",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 6,
         startTime: "16:15:00",
         endTime: "16:30:00",
@@ -497,7 +497,7 @@ module.exports = {
       {
         animalId: 11,
         name: "Celebes Crested Macaque Keeper Talk",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 7,
         startTime: "16:15:00",
         endTime: "16:30:00",
@@ -1542,7 +1542,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 1,
         startTime: "12:00:00",
         endTime: "12:15:00",
@@ -1553,7 +1553,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 2,
         startTime: "12:00:00",
         endTime: "12:15:00",
@@ -1564,7 +1564,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 3,
         startTime: "12:00:00",
         endTime: "12:15:00",
@@ -1575,7 +1575,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 4,
         startTime: "12:00:00",
         endTime: "12:15:00",
@@ -1586,7 +1586,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 5,
         startTime: "12:00:00",
         endTime: "12:15:00",
@@ -1597,7 +1597,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 6,
         startTime: "12:00:00",
         endTime: "12:15:00",
@@ -1608,7 +1608,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 7,
         startTime: "12:00:00",
         endTime: "12:15:00",
@@ -1619,7 +1619,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 1,
         startTime: "14:30:00",
         endTime: "14:45:00",
@@ -1630,7 +1630,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 2,
         startTime: "14:30:00",
         endTime: "14:45:00",
@@ -1641,7 +1641,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 3,
         startTime: "14:30:00",
         endTime: "14:45:00",
@@ -1652,7 +1652,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 4,
         startTime: "14:30:00",
         endTime: "14:45:00",
@@ -1663,7 +1663,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 5,
         startTime: "14:30:00",
         endTime: "14:45:00",
@@ -1674,7 +1674,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 6,
         startTime: "14:30:00",
         endTime: "14:45:00",
@@ -1685,7 +1685,7 @@ module.exports = {
       {
         animalId: 41,
         name: "Rainforest Fights Back",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 7,
         startTime: "14:30:00",
         endTime: "14:45:00",
@@ -1784,7 +1784,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 1,
         startTime: "10:30:00",
         endTime: "10:45:00",
@@ -1795,7 +1795,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 2,
         startTime: "10:30:00",
         endTime: "10:45:00",
@@ -1806,7 +1806,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 3,
         startTime: "10:30:00",
         endTime: "10:45:00",
@@ -1817,7 +1817,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 4,
         startTime: "10:30:00",
         endTime: "10:45:00",
@@ -1828,7 +1828,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 5,
         startTime: "10:30:00",
         endTime: "10:45:00",
@@ -1839,7 +1839,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 6,
         startTime: "10:30:00",
         endTime: "10:45:00",
@@ -1850,7 +1850,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 7,
         startTime: "10:30:00",
         endTime: "10:45:00",
@@ -1861,7 +1861,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 1,
         startTime: "17:00:00",
         endTime: "17:15:00",
@@ -1872,7 +1872,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 2,
         startTime: "17:00:00",
         endTime: "17:15:00",
@@ -1883,7 +1883,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 3,
         startTime: "17:00:00",
         endTime: "17:15:00",
@@ -1894,7 +1894,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 4,
         startTime: "17:00:00",
         endTime: "17:15:00",
@@ -1905,7 +1905,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 5,
         startTime: "17:00:00",
         endTime: "17:15:00",
@@ -1916,7 +1916,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 6,
         startTime: "17:00:00",
         endTime: "17:15:00",
@@ -1927,7 +1927,7 @@ module.exports = {
       {
         animalId: 10,
         name: "Splash Safari",
-        locationId: 60,
+        locationId: 20,
         dayOfWeek: 7,
         startTime: "17:00:00",
         endTime: "17:15:00",

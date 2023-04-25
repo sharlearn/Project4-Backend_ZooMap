@@ -2,28 +2,14 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable("coordinates", {
+    await queryInterface.createTable("geojsons", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      locationId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: "locations",
-          key: "id",
-        },
-        allowNull: true,
-      },
-      type: {
-        type: Sequelize.STRING,
-      },
-      coordinates: {
-        type: Sequelize.ARRAY(Sequelize.ARRAY(Sequelize.FLOAT)),
-        allowNull: false,
-      },
+      data: Sequelize.JSONB,
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
@@ -37,6 +23,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable("coordinates");
+    await queryInterface.dropTable("geojsons");
   },
 };
