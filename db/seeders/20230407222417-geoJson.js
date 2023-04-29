@@ -15,6 +15,8 @@ module.exports = {
                   name: "Elephants of Asia",
                   locationId: 2,
                   type: "zone",
+                  iconUrl:
+                    "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FElephantsIconV1.png?alt=media&token=e4548ab6-1a72-4f8b-9ea7-3e6f0836c254",
                 },
                 geometry: {
                   coordinates: [
@@ -62,6 +64,8 @@ module.exports = {
                   name: "Shaw Foundation Amphitheater",
                   locationId: 23,
                   type: "show",
+                  iconUrl:
+                    "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2Fshawfoundationamphitheatre.png?alt=media&token=44eb869e-3434-440e-88b3-a5de60127771",
                 },
                 geometry: {
                   coordinates: [
@@ -96,6 +100,8 @@ module.exports = {
                   name: "Australasia",
                   locationId: 1,
                   type: "zone",
+                  iconUrl:
+                    "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2Faustralasiaiconv2.png?alt=media&token=dfc6a9b1-e4a3-42e9-999f-6581cd469389",
                 },
                 geometry: {
                   coordinates: [
@@ -125,6 +131,8 @@ module.exports = {
                   name: "The Great Rift of Ethiopia",
                   locationId: 4,
                   type: "zone",
+                  iconUrl:
+                    "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FEthiopiaIcon.png?alt=media&token=a905c8e8-ca26-425a-8b21-0d4d45b6850d",
                 },
                 geometry: {
                   coordinates: [
@@ -185,6 +193,8 @@ module.exports = {
                   name: "Primate Kingdom",
                   locationId: 5,
                   type: "zone",
+                  iconUrl:
+                    "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FPrimateKingdomIcon.png?alt=media&token=7e6ab37d-cf94-402d-9763-56cf2d1ca991",
                 },
                 geometry: {
                   coordinates: [
@@ -243,6 +253,8 @@ module.exports = {
                   name: "Rainforest Kidzworld",
                   locationId: 6,
                   type: "zone",
+                  iconUrl:
+                    "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2Frainforestkidzworldicon.png?alt=media&token=d589d0c4-bcc5-4e65-abc8-37ea3dae1363",
                 },
                 geometry: {
                   coordinates: [
@@ -289,6 +301,8 @@ module.exports = {
                   name: "Wild Africa",
                   locationId: 11,
                   type: "zone",
+                  iconUrl:
+                    "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FWildAfricaIconV2.png?alt=media&token=41559cf1-9cde-4c98-94d5-a43a33d07387",
                 },
                 geometry: {
                   coordinates: [
@@ -454,6 +468,8 @@ module.exports = {
                   name: "Reptile Garden",
                   type: "zone",
                   locationId: 7,
+                  iconUrl:
+                    "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FReptileGardenIcon.png?alt=media&token=95c5f25a-00fb-4bcd-802a-dea6b9d9c273",
                 },
                 geometry: {
                   coordinates: [
@@ -483,6 +499,8 @@ module.exports = {
                   name: "Fragile Forest",
                   locationId: 3,
                   type: "zone",
+                  iconUrl:
+                    "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FFragileForestIcon.png?alt=media&token=fda5ff42-22bd-4678-9c4b-20342fd23e77",
                 },
                 geometry: {
                   coordinates: [
@@ -553,7 +571,7 @@ module.exports = {
                 type: "Feature",
                 properties: {
                   name: "Babirusa Enclosure",
-                  locationId: 32,
+                  locationId: 28,
                   type: "enclosure",
                 },
                 geometry: {
@@ -597,8 +615,10 @@ module.exports = {
                 type: "Feature",
                 properties: {
                   name: "Tigers Enclosure",
-                  type: "enclosure",
+                  type: "zone",
                   locationId: 24,
+                  iconUrl:
+                    "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2Ftigerenclosureicon.png?alt=media&token=3a80b9c3-dfd5-4419-a0b6-979aa202b99f",
                 },
                 geometry: {
                   coordinates: [
@@ -656,6 +676,8 @@ module.exports = {
                   name: "Treetops Trail",
                   locationId: 10,
                   type: "zone",
+                  iconUrl:
+                    "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2Ftreetoptrailicon.png?alt=media&token=894b090d-6188-4f07-bca1-3c9427a154fd",
                 },
                 geometry: {
                   coordinates: [
@@ -1039,6 +1061,227 @@ module.exports = {
             ],
           },
         ]),
+      },
+      {
+        data: JSON.stringify([
+          {
+            name: "Australasia",
+            iconUrl:
+              "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2Faustralasiaiconv2.png?alt=media&token=dfc6a9b1-e4a3-42e9-999f-6581cd469389",
+            coordinates: [103.79332169738609, 1.4060418422919696],
+            type: "Point",
+          },
+          {
+            name: "The Great Rift Valley of Ethiopia",
+            iconUrl:
+              "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FEthiopiaIcon.png?alt=media&token=a905c8e8-ca26-425a-8b21-0d4d45b6850d",
+            coordinates: [103.79358422433233, 1.4054119674222108],
+          },
+          {
+            name: "Primate Kingdom",
+            iconUrl:
+              "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FPrimateKingdomIcon.png?alt=media&token=7e6ab37d-cf94-402d-9763-56cf2d1ca991",
+            coordinates: [103.79469087277482, 1.4051959358904185],
+          },
+          {
+            name: "Elephants of Asia",
+            iconUrl:
+              "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FElephantsIconV1.png?alt=media&token=e4548ab6-1a72-4f8b-9ea7-3e6f0836c254",
+            coordinates: [103.79570654695709, 1.40525173593403],
+          },
+          {
+            name: "Shaw Foundation Amphitheater",
+            iconUrl:
+              "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2Fshawfoundationamphitheatre.png?alt=media&token=44eb869e-3434-440e-88b3-a5de60127771",
+            coordinates: [103.79497699733167, 1.404500305635608],
+          },
+          {
+            name: "Tigers",
+            iconUrl:
+              "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2Ftigerenclosureicon.png?alt=media&token=3a80b9c3-dfd5-4419-a0b6-979aa202b99f",
+            coordinates: [103.79302936287951, 1.404746165330522],
+          },
+          {
+            name: "Wild Africa",
+            iconUrl:
+              "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FWildAfricaIconV2.png?alt=media&token=41559cf1-9cde-4c98-94d5-a43a33d07387",
+            coordinates: [103.7939310989334, 1.40232122242071],
+          },
+          {
+            name: "Reptile Garden",
+            iconUrl:
+              "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FReptileGardenIcon.png?alt=media&token=95c5f25a-00fb-4bcd-802a-dea6b9d9c273",
+            coordinates: [103.79493471814294, 1.4028721517579044],
+          },
+          {
+            name: "Fragile Forest",
+            iconUrl:
+              "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2FFragileForestIcon.png?alt=media&token=fda5ff42-22bd-4678-9c4b-20342fd23e77",
+            coordinates: [103.7953827624471, 1.4022764313704386],
+          },
+          {
+            name: "Rainforest Kidzworld",
+            iconUrl:
+              "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2Frainforestkidzworldicon.png?alt=media&token=d589d0c4-bcc5-4e65-abc8-37ea3dae1363",
+            coordinates: [103.79685657649145, 1.4034381214442533],
+          },
+          {
+            name: "Treetop Trail",
+            iconUrl:
+              "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/zoneIcons%2Ftreetoptrailicon.png?alt=media&token=894b090d-6188-4f07-bca1-3c9427a154fd",
+            coordinates: [103.79167045789711, 1.405126066237031],
+          },
+        ]),
+      },
+      {
+        data: JSON.stringify({
+          type: "FeatureCollection",
+          features: [
+            {
+              type: "Feature",
+              properties: {
+                name: "Chimpanzee Enclosure",
+                iconUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/icon%2Fchimpanzee.png?alt=media&token=f50c9766-8051-45ff-9d2d-20106a935cac",
+              },
+              geometry: {
+                coordinates: [103.79613885250484, 1.4028352547886271],
+                type: "Point",
+              },
+              id: 11,
+            },
+            {
+              type: "Feature",
+              properties: {
+                name: "Celebes Crested Macaque",
+                iconUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/icon%2Fcelebescrestedmacaque.png?alt=media&token=5c9fb091-3f7c-48fb-a08d-b47c42f4ba09",
+              },
+              geometry: {
+                coordinates: [103.79604453624228, 1.4022573614950034],
+                type: "Point",
+              },
+              id: 12,
+            },
+            {
+              type: "Feature",
+              properties: {
+                name: "Fossa",
+                iconUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/icon%2Ffossa.png?alt=media&token=34ad8dc8-e4dd-49e4-8989-c5420fa0006f",
+              },
+              geometry: {
+                coordinates: [103.79484120383478, 1.4020811536789637],
+                type: "Point",
+              },
+              id: 13,
+            },
+            {
+              type: "Feature",
+              properties: {
+                name: "Sun Bear",
+                iconUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/icon%2Fsunbear.png?alt=media&token=c5891530-2631-4958-ab99-074c6ed35e6e",
+              },
+              geometry: {
+                coordinates: [103.79446243143633, 1.4033732739023748],
+                type: "Point",
+              },
+              id: 14,
+            },
+            {
+              type: "Feature",
+              properties: {
+                name: "Orangutan",
+                iconUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/icon%2Forangutan.png?alt=media&token=2e776b51-84a4-4a61-b821-8a0deec8f936",
+              },
+              geometry: {
+                coordinates: [103.79397901551977, 1.4036444973865372],
+                type: "Point",
+              },
+              id: 15,
+            },
+            {
+              type: "Feature",
+              properties: {
+                name: "African Penguin",
+                iconUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/icon%2Fafricanpenguin.png?alt=media&token=cdcd64e3-0526-4471-a4e9-fdbfafd07115",
+              },
+              geometry: {
+                coordinates: [103.7940840126185, 1.40400058985297],
+                type: "Point",
+              },
+              id: 16,
+            },
+            {
+              type: "Feature",
+              properties: {
+                name: "Red Ruffed Lemur",
+                iconUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/icon%2Fredruffedlemur.png?alt=media&token=6f9162ed-0410-42b7-977d-7d20e0fe183d",
+              },
+              geometry: {
+                coordinates: [103.79297823510149, 1.4041339767443475],
+                type: "Point",
+              },
+              id: 17,
+            },
+            {
+              type: "Feature",
+              properties: {
+                name: "Pygmy Hippo",
+                iconUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/icon%2Fpygmyhippo.png?alt=media&token=70ae6c23-ae17-4abc-ae76-57a232669325",
+              },
+              geometry: {
+                coordinates: [103.79302543689408, 1.405196640403645],
+                type: "Point",
+              },
+              id: 18,
+            },
+            {
+              type: "Feature",
+              properties: {
+                name: "Babirusa",
+                iconUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/icon%2Fbabirusa.png?alt=media&token=5bee523b-df44-4db1-b3af-f43320e2d69d",
+              },
+              geometry: {
+                coordinates: [103.7925642303203, 1.4046697055251656],
+                type: "Point",
+              },
+              id: 19,
+            },
+            {
+              type: "Feature",
+              properties: {
+                name: "Asian Small-Clawed Otter",
+                iconUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/icon%2Fasiansmallclawedotter.png?alt=media&token=63b4b6cd-5fa5-41ea-a172-2a3bd64bec1e",
+              },
+              geometry: {
+                coordinates: [103.79195066078881, 1.4046985222767177],
+                type: "Point",
+              },
+              id: 20,
+            },
+            {
+              type: "Feature",
+              properties: {
+                name: "Proboscis Monkeys",
+                iconUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/project4-z.appspot.com/o/icon%2Fproboscismonkey.png?alt=media&token=4f69a815-cf95-4cdf-be82-5b973f1a529f",
+              },
+              geometry: {
+                coordinates: [103.79149925468857, 1.404694111734571],
+                type: "Point",
+              },
+              id: 21,
+            },
+          ],
+        }),
       },
     ]);
   },

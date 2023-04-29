@@ -7,7 +7,6 @@ class AnimalController extends BaseController {
   }
 
   async getByLocationId(req, res) {
-    console.log(req.params);
     const { locationid } = req.params;
     console.log(locationid);
     try {

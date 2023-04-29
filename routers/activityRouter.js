@@ -14,6 +14,10 @@ class ActivityRouter {
       "/:id",
       this.controller.getByAnimalOrDayId.bind(this.controller)
     );
+    router.get(
+      "/location/:locationId",
+      this.controller.getCurrentDayActivities.bind(this.controller)
+    );
     return router;
   };
 }

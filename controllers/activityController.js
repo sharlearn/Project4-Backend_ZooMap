@@ -27,6 +27,28 @@ class ActivityController extends BaseController {
       return res.status(400).json({ error: true, msg: err });
     }
   }
+
+  //get activities of current day based on locationId
+  async getCurrentDayActivities(req, res) {
+    const { locationId } = req.params;
+
+    const dayOfWeek = new Date().getDay();
+
+    try {
+      const output = await this.model.findAll({
+        where: {
+          locationId: locationId,
+          dayOfWeek: dayOfWeek,
+        },
+        include: {
+          model: this.locationModel,
+        },
+      });
+      return res.json(output);
+    } catch (err) {
+      return res.status(400).json({ error: true, msg: err });
+    }
+  }
 }
 
 module.exports = ActivityController;
