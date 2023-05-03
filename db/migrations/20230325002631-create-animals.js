@@ -2,7 +2,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable("locations", {
+    await queryInterface.createTable("animals", {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -13,12 +13,38 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      description: {
-        type: Sequelize.TEXT,
+      locationId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "locations",
+          key: "id",
+        },
+        allowNull: true,
       },
-      type: {
+      lifespan: {
         type: Sequelize.STRING,
         allowNull: false,
+      },
+      diet: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      habitat: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      range: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      description: {
+        type: Sequelize.JSON,
+      },
+      iucnStatus: {
+        type: Sequelize.STRING,
+      },
+      iucnDescription: {
+        type: Sequelize.JSON,
       },
       createdAt: {
         allowNull: false,
@@ -33,6 +59,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable("locations");
+    await queryInterface.dropTable("animals");
   },
 };

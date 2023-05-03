@@ -2,23 +2,36 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable("locations", {
+    await queryInterface.createTable("animalactivities", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
+      animalId: {
+        type: Sequelize.INTEGER,
+      },
       name: {
         type: Sequelize.STRING,
-        allowNull: false,
       },
-      description: {
-        type: Sequelize.TEXT,
+      locationId: {
+        type: Sequelize.INTEGER,
       },
-      type: {
+      dayOfWeek: {
+        type: Sequelize.INTEGER,
+      },
+      startTime: {
         type: Sequelize.STRING,
-        allowNull: false,
+      },
+      endTime: {
+        type: Sequelize.STRING,
+      },
+      price: {
+        type: Sequelize.STRING,
+      },
+      remarks: {
+        type: Sequelize.TEXT,
       },
       createdAt: {
         allowNull: false,
@@ -33,6 +46,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable("locations");
+    await queryInterface.dropTable("animalactivities");
   },
 };

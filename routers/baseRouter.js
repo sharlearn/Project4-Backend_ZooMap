@@ -10,6 +10,7 @@ class BaseRouter {
   routes = () => {
     let router = this.express.Router();
     router.get("/", this.controller.getAll.bind(this.controller));
+    router.get("/:id", this.controller.getOneByPk.bind(this.controller));
     return router;
   };
 }

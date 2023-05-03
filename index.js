@@ -9,28 +9,35 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const db = require("./db/models/index");
-const { location, amenity } = db;
-
-// const LocationController = require("./controllers/baseController");
-
-// const LocationRouter = require("./routers/locationRouter");
-
-// const locationController = new LocationController(location);
-
-// const locationRouter = new LocationRouter(locationController, express).routes();
+const { location, animal, animalactivity, geojson } = db;
 
 const BaseController = require("./controllers/baseController");
-
 const BaseRouter = require("./routers/baseRouter");
 
+const AnimalController = require("./controllers/animalController");
+const AnimalRouter = require("./routers/animalRouter");
+
+const ActivityController = require("./controllers/activityController");
+const ActivityRouter = require("./routers/activityRouter");
+
 const locationController = new BaseController(location);
-const amenityController = new BaseController(amenity);
+const animalController = new AnimalController(animal);
+const activityController = new ActivityController(
+  animalactivity,
+  location,
+  animal
+);
+const geoJsonController = new BaseController(geojson);
 
 const locationRouter = new BaseRouter(locationController, express).routes();
-const amenityRouter = new BaseRouter(amenityController, express).routes();
+const animalRouter = new AnimalRouter(animalController, express).routes();
+const activityRouter = new ActivityRouter(activityController, express).routes();
+const geoJsonRouter = new BaseRouter(geoJsonController, express).routes();
 
 app.use("/location", locationRouter);
-app.use("/amenity", amenityRouter);
+app.use("/animal", animalRouter);
+app.use("/activity", activityRouter);
+app.use("/geojson", geoJsonRouter);
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
