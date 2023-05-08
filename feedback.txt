@@ -1,0 +1,17 @@
+Overall it is a bit hard for me to give you much of a review for this capstone project.
+
+Why?
+
+Well, the bulk of the project was the work on the map. Obviously this is a problem with an external library instead of your own code.
+
+However, your work was clean. I can see you utilizing everything we have taught during bootcamp. You are able to setup your server,
+are able to communicate with the server via the client and are also able to communicate with a database via the server.
+
+I think you could improve upon your Backend design decisions a bit from what I have seen on this BE repo, but since it is just a small sample-size of code, I am not sure how subjective my feedback here is.
+Ideally we want to work towards validating client input always. May it be request params, request bodys or query params. We never want to trust anyone, sadly :D!
+
+I like how you made use of a BaseController here.
+
+Your Frontend naming sense is a bit questionable for components, and I would almost consider creating more folders on the components folder as it has all files related to modals and tabs in it. We could create a folder for Modal, one for Tabs, and then make these components dynamic to be reused across our whole codebase. But given that the codebase is quite small, I did not comment on that. Please keep in mind to abstract things as much as possible and give it as good of a naming as you can in the future. Just a reminder, not negative feedback for your project.
+
+Along the whole bootcamp you were very consistent. You always delivered, even when it was hard to do so due to some circumstances. I think your resilience is a very good attribute of yours, even though you always sigh haha :D! You should definitely highlight that resilience during interviews in some form, it is a strong suit of yours. You are very reliable and I never once thought of you as hard to deal with as a student. You ask good questions, though you could ask a bit more often! This would not only help you, but your whole team with their understanding (people often rather stay silent than ask). I do see you landing a engineering job, especially given your background! Give it your all and stay in contact! Add me on LinkedIn or sth yah :)!

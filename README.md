@@ -1,3 +1,5 @@
+<!-- Same here with the readme. More comprehensive please :) Installation, prerequisites, which database is used, how to define the environment variables etc. etc. -->
+
 ## Zoo Map App
 
 ## Description
