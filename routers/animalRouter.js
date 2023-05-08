@@ -7,6 +7,7 @@ class AnimalRouter {
     this.express = express;
   }
 
+  // Why mix functional style into a class-based router? Might as well just make it a functional router :)!
   routes = () => {
     let router = this.express.Router();
     router.get("/", this.controller.getAll.bind(this.controller));

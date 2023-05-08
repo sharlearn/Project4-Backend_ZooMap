@@ -1,5 +1,5 @@
 "use strict";
-
+// nice use of migrations and seeds. Each change a own file! BUT DAMN THAT'S A LOT OF SEED DATA LOL!
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {

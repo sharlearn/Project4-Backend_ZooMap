@@ -11,6 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 const db = require("./db/models/index");
 const { location, animal, animalactivity, geojson } = db;
 
+// could we find a way to dynamically import all controllers and/or routers? In node we can read files dynamically!
 const BaseController = require("./controllers/baseController");
 const BaseRouter = require("./routers/baseRouter");
 
